@@ -1,25 +1,33 @@
-module program3 
-    (   input c, //clock
-        input str,    //write enable 
-	input ld,   // read enable
-        input [31:0] d_in,    //Input data to port 0.
-        input [3:0] a,  //address for 
-        output [31:0] d    //output data from port 0.
- 
-    );
-
-//memory declaration.
-reg [31:0] rom[0:15];
-
-//writing to the RAM
-always@(posedge c)
-begin
-    if(str)    //check enable signal and if write enable is ON
-        rom[a] <= d_in;
-end
-
-//always reading from the ram, irrespective of clock.
-assign d = ld ? rom[a] : 32'bz;   
-  
-
+module assembler (
+  input mode,
+  input [15:0] value,
+  input [1:0] dest,
+  input [1:0] src,
+  input add,
+  input jump,
+  output [31:0] inst,
+  output store_clk
+);
+  wire [2:0] s0;
+  wire s1;
+  priorityencoder3 priorityencoder3_i0 (
+    .in0( add ),
+    .in1( 1'b0 ),
+    .in2( 1'b0 ),
+    .in3( 1'b0 ),
+    .in4( 1'b0 ),
+    .in5( 1'b0 ),
+    .in6( 1'b0 ),
+    .in7( jump ),
+    .num( s0 ),
+    .any( s1 )
+  );
+  assign inst[15:0] = value;
+  assign inst[17:16] = dest;
+  assign inst[19:18] = 2'b0;
+  assign inst[21:20] = src;
+  assign inst[23:22] = 2'b0;
+  assign inst[26:24] = s0;
+  assign inst[31:27] = 5'b0;
+  assign store_clk = (s1 & mode);
 endmodule
