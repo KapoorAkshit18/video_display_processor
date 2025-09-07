@@ -1,7 +1,3 @@
-# video_display_processor
-
-
-````markdown
 # Minimalist Instruction Set Processor (Add-Jump CPU)
 
 ## Overview
