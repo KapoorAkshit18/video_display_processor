@@ -1,6 +1,5 @@
 # video_display_processor
-Final Year Project Performed at Shri Mata Vaishno Devi University 
-Perfect! Here’s an updated **README.md** with a concise “Quick Start” section including example instructions and waveform guidance:
+
 
 ````markdown
 # Minimalist Instruction Set Processor (Add-Jump CPU)
