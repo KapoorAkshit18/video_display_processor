@@ -1,0 +1,87 @@
+# couldn't read file "C:/mtitcl/vsim/compiledialog.tc_": Unknown error
+#     while executing
+# "do_edit $filename  0 0 $lang"
+#     (procedure "Project::openSingleFile" line 47)
+#     invoked from within
+# "Project::openSingleFile $arg"
+#     (procedure "OpenFile" line 3)
+#     invoked from within
+# "OpenFile [Project::getNormalizedFileName $pathname]"
+#     (procedure "Project::openSelectedItems" line 8)
+#     invoked from within
+# "Project::openSelectedItems "
+#     (procedure "Project::openDB" line 62)
+#     invoked from within
+# "Project::openDB"
+#     (procedure "Project::doubleClick" line 6)
+#     invoked from within
+# "Project::doubleClick Order"
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel "#0" $cmd"
+#     (object "::.main_pane.project.interior.cs.body.project" method "::vsimwidgets::Hierarchy::_evalCmd" body line 45)
+#     invoked from within
+# "_evalCmd $itk_option(-command) $node -column $c"
+#     (object "::.main_pane.project.interior.cs.body.project" method "::vsimwidgets::Hierarchy::_doublebutton1" body line 15)
+#     invoked from within
+# "::.main_pane.project.interior.cs.body.project _doublebutton1 .main_pane.project.interior.cs.body.project.lwchildsite.clipper.canvas.sfchildsite.col3 2..."
+#     (in namespace inscope "::vsimwidgets::Hierarchy" script line 1)
+#     invoked from within
+# "namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.project.interior.cs.body.project _doublebutton1 .main_pane.project.interior.cs.body.project.l..."
+#     (command bound to event)
+# couldn't read file "C:/mtitcl/vsim/pendingexclusions.tc_": no such file or directory
+#     while executing
+# "PendingExclusion::CheckPendingExclusions"
+#     (procedure "quit" line 62)
+#     invoked from within
+# "quit"
+#     (command for "WM_DELETE_WINDOW" window manager protocol)
+# couldn't read file "C:/mtitcl/vsim/pendingexclusions.tc_": no such file or directory
+#     while executing
+# "PendingExclusion::CheckPendingExclusions"
+#     (procedure "quit" line 62)
+#     invoked from within
+# "quit"
+#     (command for "WM_DELETE_WINDOW" window manager protocol)
+# couldn't read file "C:/mtitcl/vsim/pendingexclusions.tc_": no such file or directory
+#     while executing
+# "PendingExclusion::CheckPendingExclusions"
+#     (procedure "quit" line 62)
+#     invoked from within
+# "quit"
+#     (command for "WM_DELETE_WINDOW" window manager protocol)
+# couldn't read file "C:/mtitcl/vsim/pendingexclusions.tc_": no such file or directory
+#     while executing
+# "PendingExclusion::CheckPendingExclusions"
+#     (procedure "quit" line 62)
+#     invoked from within
+# "quit"
+#     (command for "WM_DELETE_WINDOW" window manager protocol)
+# couldn't read file "C:/mtitcl/vsim/pendingexclusions.tc_": no such file or directory
+#     while executing
+# "PendingExclusion::CheckPendingExclusions"
+#     (procedure "quit" line 62)
+#     invoked from within
+# "quit"
+#     (command for "WM_DELETE_WINDOW" window manager protocol)
+# couldn't read file "C:/mtitcl/vsim/pendingexclusions.tc_": no such file or directory
+#     while executing
+# "PendingExclusion::CheckPendingExclusions"
+#     (procedure "quit" line 62)
+#     invoked from within
+# "quit"
+#     (command for "WM_DELETE_WINDOW" window manager protocol)
+# couldn't read file "C:/mtitcl/vsim/pendingexclusions.tc_": no such file or directory
+#     while executing
+# "PendingExclusion::CheckPendingExclusions"
+#     (procedure "quit" line 62)
+#     invoked from within
+# "quit"
+#     (command for "WM_DELETE_WINDOW" window manager protocol)
+# couldn't read file "C:/mtitcl/vsim/pendingexclusions.tc_": no such file or directory
+#     while executing
+# "PendingExclusion::CheckPendingExclusions"
+#     (procedure "quit" line 62)
+#     invoked from within
+# "quit"
+#     (command for "WM_DELETE_WINDOW" window manager protocol)

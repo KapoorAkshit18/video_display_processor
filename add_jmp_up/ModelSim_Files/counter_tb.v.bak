@@ -1,0 +1,80 @@
+// updown counter with preset function
+`timescale 1ns/1ps
+module counter_tb;
+
+     // formula for max = 2^bits - 1
+    
+    // Parameters
+    parameter bits = 4;        // test with 3 bits
+    parameter maxvalue = 15;   // 
+ 
+
+
+    // Testbench signals
+    reg clk;
+    reg en;
+    reg clr;
+    reg dir;
+    reg ld;
+    reg [(bits-1):0] in;
+    wire [(bits-1):0] out;
+    wire ovf;
+
+    // Instantiate the DUT (Device Under Test)
+    counter #(bits, maxvalue) dut (
+        .c(clk),
+        .en(en),
+        .clr(clr),
+        .dir(dir),
+        .in(in),
+        .ld(ld),
+        .out(out),
+        .ovf(ovf)
+    );
+
+    // Clock generation (10ns period ? 100 MHz)
+    initial begin
+        clk = 0;
+        forever #5 clk = ~clk;  //100 MHz clock
+    end
+
+    // Stimulus
+    initial begin
+        // Dump waves (for ModelSim/GTKWave)
+
+
+        // Initialize
+        en = 0; clr = 0; dir = 0; ld = 0; in = 0;
+
+        // Reset counter
+        #10 clr = 1;
+        #10 clr = 0;
+
+        // Count up
+        en = 1; dir = 0;
+        repeat (16) @(posedge clk);
+
+        // Load a value
+        ld = 1; in = 3;
+        @(posedge clk);
+        
+
+        // Count up more
+        repeat (5) @(posedge clk);
+	ld=0;
+        // Change direction ? count down
+        dir = 1;
+        repeat (16) @(posedge clk);
+
+        // Finish simulation
+        #200 $finish;
+    end
+
+    // Monitor values
+    initial begin
+        $monitor("Time=%0t clk=%b clr=%b ld=%b in=%d en=%b dir=%b out=%d ovf=%b",
+                  $time, clk, clr, ld, in, en, dir, out, ovf);
+    end
+
+endmodule
+

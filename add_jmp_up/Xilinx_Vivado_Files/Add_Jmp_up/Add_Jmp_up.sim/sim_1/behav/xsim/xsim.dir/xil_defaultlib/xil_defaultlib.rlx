@@ -1,0 +1,26 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sim_1/imports/all files for vivado/tb_add_jump_cpu.v,1759233168,verilog,,C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sim_1/imports/all files for vivado/tb_fpga_top.v,,tb_top,,,,,,,,
+C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sim_1/imports/all files for vivado/tb_fpga_top.v,1759243638,verilog,,,,tb_fpga_top,,,,,,,,
+C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/add_jump_cpu.v,1759241636,verilog,,C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/adder_nbits.v,,add_jump_cpu,,,,,,,,
+C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/adder_nbits.v,1757157495,verilog,,C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/assembler.v,,adder_nbits,,,,,,,,
+C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/assembler.v,1759245477,verilog,,C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/counter_with_preset.v,,assembler,,,,,,,,
+C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/counter_with_preset.v,1759241063,verilog,,C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/decoder-1x8.v,,counter_with_preset,,,,,,,,
+C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/decoder-1x8.v,1757074315,verilog,,C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/decoder.v,,decoder3,,,,,,,,
+C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/decoder.v,1757177170,verilog,,C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/decoder_1x4.v,,decoder,,,,,,,,
+C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/decoder_1x4.v,1757189436,verilog,,C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/demux_nbits.v,,decoder_1x4,,,,,,,,
+C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/demux_nbits.v,1757194551,verilog,,C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/dff.v,,demux_nbits,,,,,,,,
+C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/dff.v,1757490667,verilog,,C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/eeprom.v,,dff,,,,,,,,
+C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/eeprom.v,1757413602,verilog,,C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/execute.v,,eeprom,,,,,,,,
+C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/execute.v,1757181536,verilog,,C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/fpga_top.v,,execute,,,,,,,,
+C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/fpga_top.v,1759246155,verilog,,C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/mux_2x1_nbits.v,,fpga_top,,,,,,,,
+C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/mux_2x1_nbits.v,1756818976,verilog,,C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/mux_4x1_nbits.v,,mux_2x1_nbits,,,,,,,,
+C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/mux_4x1_nbits.v,1757187710,verilog,,C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/priorityencoder3.v,,mux_4x1_nbits,,,,,,,,
+C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/priorityencoder3.v,1759245456,verilog,,C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v,,priorityencoder3,,,,,,,,
+C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/regfile.v,1757489968,verilog,,C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sim_1/imports/all files for vivado/tb_fpga_top.v,,regfile,,,,,,,,
+C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/debounce_onepulse.v,1759237250,verilog,,C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/decoder-1x8.v,,debounce_onepulse,,,,,,,,
+C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/gpio.v,1759192900,verilog,,C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/mux_2x1_nbits.v,,gpio,,,,,,,,
+C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v,1759055917,verilog,,C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/all files for vivado/regfile.v,,probe_registers,,,,,,,,

@@ -1,0 +1,66 @@
+# Reading pref.tcl
+# OpenFile C:/Users/akshi/Desktop/vdp_design/verilog_files/export_digital/regfile/regfile.v
+vlib work
+vlog -reportprogress 300 -work work C:/Users/akshi/Desktop/vdp_design/verilog_files/export_digital/regfile/regfile.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:38:26 on Jun 18,2025
+# vlog -reportprogress 300 -work work C:/Users/akshi/Desktop/vdp_design/verilog_files/export_digital/regfile/regfile.v 
+# -- Compiling module DemuxBus2
+# -- Compiling module Decoder2
+# -- Compiling module DIG_Register_BUS
+# -- Compiling module Mux_4x1_NBits
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# End time: 20:38:26 on Jun 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/akshi/Desktop/vdp_design/verilog_files/export_digital/regfile/regfile_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:44:48 on Jun 18,2025
+# vlog -reportprogress 300 -work work C:/Users/akshi/Desktop/vdp_design/verilog_files/export_digital/regfile/regfile_tb.v 
+# -- Compiling module tb_regfile
+# 
+# Top level modules:
+# 	tb_regfile
+# End time: 20:44:48 on Jun 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui work.tb_regfile
+# vsim -gui work.tb_regfile 
+# Start time: 20:45:09 on Jun 18,2025
+# Loading work.tb_regfile
+# Loading work.regfile
+# Loading work.DemuxBus2
+# Loading work.Decoder2
+# Loading work.DIG_Register_BUS
+# Loading work.Mux_4x1_NBits
+add wave  \
+sim:/tb_regfile/rs \
+sim:/tb_regfile/rd \
+sim:/tb_regfile/result \
+sim:/tb_regfile/clk \
+sim:/tb_regfile/b \
+sim:/tb_regfile/r0 \
+sim:/tb_regfile/r1 \
+sim:/tb_regfile/r2 \
+sim:/tb_regfile/r3
+run
+# Time=0 | rs=00 rd=00 result=0000 | r0=0000 r1=0000 r2=0000 r3=0000 | b=0000
+# Time=10 | rs=00 rd=00 result=aaaa | r0=0000 r1=0000 r2=0000 r3=0000 | b=0000
+# Time=15 | rs=00 rd=00 result=aaaa | r0=aaaa r1=0000 r2=0000 r3=0000 | b=aaaa
+# Time=20 | rs=00 rd=01 result=bbbb | r0=aaaa r1=0000 r2=0000 r3=0000 | b=aaaa
+# Time=25 | rs=00 rd=01 result=bbbb | r0=aaaa r1=bbbb r2=0000 r3=0000 | b=aaaa
+# Time=30 | rs=00 rd=10 result=cccc | r0=aaaa r1=bbbb r2=0000 r3=0000 | b=aaaa
+# Time=35 | rs=00 rd=10 result=cccc | r0=aaaa r1=bbbb r2=cccc r3=0000 | b=aaaa
+# Time=40 | rs=00 rd=11 result=dddd | r0=aaaa r1=bbbb r2=cccc r3=0000 | b=aaaa
+# Time=45 | rs=00 rd=11 result=dddd | r0=aaaa r1=bbbb r2=cccc r3=dddd | b=aaaa
+# Time=60 | rs=01 rd=11 result=dddd | r0=aaaa r1=bbbb r2=cccc r3=dddd | b=bbbb
+# Time=70 | rs=10 rd=11 result=dddd | r0=aaaa r1=bbbb r2=cccc r3=dddd | b=cccc
+# Time=80 | rs=11 rd=11 result=dddd | r0=aaaa r1=bbbb r2=cccc r3=dddd | b=dddd
+# ** Note: $finish    : C:/Users/akshi/Desktop/vdp_design/verilog_files/export_digital/regfile/regfile_tb.v(61)
+#    Time: 90 ps  Iteration: 0  Instance: /tb_regfile
+# 1
+# Break in Module tb_regfile at C:/Users/akshi/Desktop/vdp_design/verilog_files/export_digital/regfile/regfile_tb.v line 61
+quit -sim
+# End time: 20:48:19 on Jun 18,2025, Elapsed time: 0:03:10
+# Errors: 0, Warnings: 0

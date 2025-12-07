@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../Add_Jmp_up.srcs/sources_1/bd/bd_add_jmp_up/ipshared/ec67/hdl" --include "../../../../Add_Jmp_up.srcs/sources_1/bd/bd_add_jmp_up/ipshared/5bb9/hdl/verilog" --include "../../../../Add_Jmp_up.srcs/sources_1/bd/bd_add_jmp_up/ipshared/e4d1/hdl" --include "../../../../Add_Jmp_up.srcs/sources_1/bd/bd_add_jmp_up/ipshared/b65a" --include "C:/Xilinx/Vivado/2018.2/data/xilinx_vip/include" \
+"../../../../Add_Jmp_up.ip_user_files/bd/bd_add_jmp_up/ip/bd_add_jmp_up_top_0_0/sim/bd_add_jmp_up_top_0_0.v" \
+"../../../../Add_Jmp_up.ip_user_files/bd/bd_add_jmp_up/ip/bd_add_jmp_up_zynq_ultra_ps_e_0_0/sim/bd_add_jmp_up_zynq_ultra_ps_e_0_0_vip_wrapper.v" \
+"../../../../Add_Jmp_up.ip_user_files/bd/bd_add_jmp_up/ip/bd_add_jmp_up_clk_wiz_0_0/bd_add_jmp_up_clk_wiz_0_0_clk_wiz.v" \
+"../../../../Add_Jmp_up.ip_user_files/bd/bd_add_jmp_up/ip/bd_add_jmp_up_clk_wiz_0_0/bd_add_jmp_up_clk_wiz_0_0.v" \
+"../../../../Add_Jmp_up.ip_user_files/bd/bd_add_jmp_up/ip/bd_add_jmp_up_ila_0_0/sim/bd_add_jmp_up_ila_0_0.v" \
+"../../../../Add_Jmp_up.ip_user_files/bd/bd_add_jmp_up/ip/bd_add_jmp_up_xbar_0/sim/bd_add_jmp_up_xbar_0.v" \
+"../../../../Add_Jmp_up.ip_user_files/bd/bd_add_jmp_up/sim/bd_add_jmp_up.v" \
+"../../../../Add_Jmp_up.ip_user_files/bd/bd_add_jmp_up/ip/bd_add_jmp_up_axi_crossbar_0_0/sim/bd_add_jmp_up_axi_crossbar_0_0.v" \
+"../../../../Add_Jmp_up.ip_user_files/bd/bd_add_jmp_up/ip/bd_add_jmp_up_auto_ds_1/sim/bd_add_jmp_up_auto_ds_1.v" \
+"../../../../Add_Jmp_up.ip_user_files/bd/bd_add_jmp_up/ip/bd_add_jmp_up_auto_pc_1/sim/bd_add_jmp_up_auto_pc_1.v" \
+"../../../../Add_Jmp_up.ip_user_files/bd/bd_add_jmp_up/ip/bd_add_jmp_up_auto_ds_0/sim/bd_add_jmp_up_auto_ds_0.v" \
+"../../../../Add_Jmp_up.ip_user_files/bd/bd_add_jmp_up/ip/bd_add_jmp_up_auto_pc_0/sim/bd_add_jmp_up_auto_pc_0.v" \
+"../../../../Add_Jmp_up.srcs/sources_1/imports/hdl/bd_add_jmp_up_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

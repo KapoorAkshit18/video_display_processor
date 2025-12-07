@@ -1,0 +1,13 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+[0] pc=x add=0 jump=0 prog=0 store_clk=0 inst=000000a5
+[20000] Press ADD
+Error: Both read and write active!
+[20000] pc=x add=1 jump=0 prog=1 store_clk=1 inst=000100a5
+[30000] pc=x add=0 jump=0 prog=1 store_clk=0 inst=000100a5
+[80000] Press JUMP
+Error: Both read and write active!
+[80000] pc=x add=0 jump=1 prog=1 store_clk=1 inst=070100a5
+[90000] pc=x add=0 jump=0 prog=1 store_clk=0 inst=000100a5
+[140000] Advance 3 times
+[360000] Simulation finished

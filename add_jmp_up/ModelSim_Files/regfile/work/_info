@@ -1,0 +1,153 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/akshi/Desktop/vdp_design/verilog_files/export_digital/regfile
+vDecoder2
+Z1 !s110 1750259306
+!i10b 1
+!s100 FW=4>gBEFk80zX`zWmWdE2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IC86Z[I15zS4oJT0:VgPFg3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1747375557
+Z5 8C:/Users/akshi/Desktop/vdp_design/verilog_files/export_digital/regfile/regfile.v
+Z6 FC:/Users/akshi/Desktop/vdp_design/verilog_files/export_digital/regfile/regfile.v
+!i122 0
+L0 26 12
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1750259306.000000
+Z9 !s107 C:/Users/akshi/Desktop/vdp_design/verilog_files/export_digital/regfile/regfile.v|
+Z10 !s90 -reportprogress|300|-work|work|C:/Users/akshi/Desktop/vdp_design/verilog_files/export_digital/regfile/regfile.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@decoder2
+vDemuxBus2
+R1
+!i10b 1
+!s100 ZhV@Lm:eD^5H1V5GJJD4b1
+R2
+IdPMRk>X`Hi43A[;b6_X@61
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 6 18
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@demux@bus2
+vDIG_Register_BUS
+R1
+!i10b 1
+!s100 Mc5eKSXPA9SajdOkjDilo1
+R2
+I@U@2M8N5NIYCM5ET;11b`0
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 40 19
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@d@i@g_@register_@b@u@s
+vMux_4x1_NBits
+R1
+!i10b 1
+!s100 AK<77RF67ba;_:BzE[mYI2
+R2
+I=?Q6I6`YLel=J:HcYNdgm2
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 60 22
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@mux_4x1_@n@bits
+vregfile
+R1
+!i10b 1
+!s100 n@dWFdh:Kl8e6U_19ae7d1
+R2
+I:4GhW>=_T9VX?d4^0<e[>1
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 84 98
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vtb_regfile
+!s110 1750259688
+!i10b 1
+!s100 zjo><W1SnT8F2MkhjFFQ72
+R2
+Ik:UBHV95:0jH_=me]nWgT3
+R3
+R0
+w1750259679
+8C:/Users/akshi/Desktop/vdp_design/verilog_files/export_digital/regfile/regfile_tb.v
+FC:/Users/akshi/Desktop/vdp_design/verilog_files/export_digital/regfile/regfile_tb.v
+!i122 1
+L0 1 64
+R7
+r1
+!s85 0
+31
+!s108 1750259688.000000
+!s107 C:/Users/akshi/Desktop/vdp_design/verilog_files/export_digital/regfile/regfile_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/akshi/Desktop/vdp_design/verilog_files/export_digital/regfile/regfile_tb.v|
+!i113 1
+R11
+R12

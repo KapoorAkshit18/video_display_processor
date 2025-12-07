@@ -1,0 +1,75 @@
+`timescale 1ns/1ps
+
+module tb_priorityencoder3;
+
+    // DUT inputs
+    reg in0, in1, in2, in3, in4, in5, in6, in7;
+
+    // DUT outputs
+    wire [2:0] num;
+    wire any;
+
+    // Instantiate DUT (Design Under Test)
+    priorityencoder3 uut (
+        .in0(in0), .in1(in1), .in2(in2), .in3(in3),
+        .in4(in4), .in5(in5), .in6(in6), .in7(in7),
+        .num(num),
+        .any(any)
+    );
+
+    // Stimulus
+    initial begin
+        $display("=== Priority Encoder Test Start ===");
+
+        // Default: all inputs 0
+        {in7,in6,in5,in4,in3,in2,in1,in0} = 8'b0000_0000;
+        #10 $display("Inputs=%b -> num=%b, any=%b (expected 000,0)", 
+                      {in7,in6,in5,in4,in3,in2,in1,in0}, num, any);
+
+        // Test single inputs
+        in0=1; in1=0; in2=0; in3=0; in4=0; in5=0; in6=0; in7=0;
+        #10 $display("Inputs=%b -> num=%b, any=%b (expected 000,1)", 
+                      {in7,in6,in5,in4,in3,in2,in1,in0}, num, any);
+
+        in1=1; in0=0;
+        #10 $display("Inputs=%b -> num=%b, any=%b (expected 001,1)", 
+                      {in7,in6,in5,in4,in3,in2,in1,in0}, num, any);
+
+        in2=1; in1=0;
+        #10 $display("Inputs=%b -> num=%b, any=%b (expected 010,1)", 
+                      {in7,in6,in5,in4,in3,in2,in1,in0}, num, any);
+
+        in3=1; in2=0;
+        #10 $display("Inputs=%b -> num=%b, any=%b (expected 011,1)", 
+                      {in7,in6,in5,in4,in3,in2,in1,in0}, num, any);
+
+        in4=1; in3=0;
+        #10 $display("Inputs=%b -> num=%b, any=%b (expected 100,1)", 
+                      {in7,in6,in5,in4,in3,in2,in1,in0}, num, any);
+
+        in5=1; in4=0;
+        #10 $display("Inputs=%b -> num=%b, any=%b (expected 101,1)", 
+                      {in7,in6,in5,in4,in3,in2,in1,in0}, num, any);
+
+        in6=1; in5=0;
+        #10 $display("Inputs=%b -> num=%b, any=%b (expected 110,1)", 
+                      {in7,in6,in5,in4,in3,in2,in1,in0}, num, any);
+
+        in7=1; in6=0;
+        #10 $display("Inputs=%b -> num=%b, any=%b (expected 111,1)", 
+                      {in7,in6,in5,in4,in3,in2,in1,in0}, num, any);
+
+        // Test multiple active inputs ? highest priority wins (in7 > ... > in0)
+        {in7,in6,in5,in4,in3,in2,in1,in0} = 8'b1010_0101;
+        #10 $display("Inputs=%b -> num=%b, any=%b (expected 111,1)", 
+                      {in7,in6,in5,in4,in3,in2,in1,in0}, num, any);
+
+        {in7,in6,in5,in4,in3,in2,in1,in0} = 8'b0001_1001;
+        #10 $display("Inputs=%b -> num=%b, any=%b (expected 101,1)", 
+                      {in7,in6,in5,in4,in3,in2,in1,in0}, num, any);
+
+        $display("=== Priority Encoder Test End ===");
+        $finish;
+    end
+
+endmodule

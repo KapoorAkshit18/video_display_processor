@@ -1,0 +1,1261 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vadder_nbits
+Z0 !s110 1758147098
+!i10b 1
+!s100 QdJhf5XLQPJA4?2?9_;<a0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ii^co45BLf`_BZo^@ODzdh1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital
+w1757842260
+8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/adder/adder_nbits.v
+FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/adder/adder_nbits.v
+!i122 1128
+Z4 L0 1 17
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1758147098.000000
+!s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/adder/adder_nbits.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/adder/adder_nbits.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vassembler
+Z9 !s110 1758147096
+!i10b 1
+!s100 7[GSCnN[AG[NGR9ba4Rdk3
+R1
+IWC7lIMj@N<nQ1GBORH]Ei0
+R2
+R3
+w1757173583
+8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/assembler/assembler.v
+FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/assembler/assembler.v
+!i122 1116
+Z10 L0 1 33
+R5
+r1
+!s85 0
+31
+Z11 !s108 1758147096.000000
+!s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/assembler/assembler.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/assembler/assembler.v|
+!i113 1
+R7
+R8
+vassembler_tb
+R9
+!i10b 1
+!s100 Rb`OaU0e2EX@kLj78ATA@0
+R1
+IdV0j9ChA]7Gz@z`SHDW383
+R2
+R3
+w1757173638
+Z12 8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/assembler/assembler_tb.v
+Z13 FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/assembler/assembler_tb.v
+!i122 1117
+Z14 L0 3 65
+R5
+r1
+!s85 0
+31
+R11
+Z15 !s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/assembler/assembler_tb.v|
+Z16 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/assembler/assembler_tb.v|
+!i113 1
+R7
+R8
+vcounter
+Z17 !s110 1758147100
+!i10b 1
+!s100 T7[=8T1RJ;[ZYMgnUTiHH3
+R1
+Im2[_OhS9VJ]1zFWmR4nJA0
+R2
+R3
+w1757153544
+8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/counter.v
+FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/counter.v
+!i122 1133
+L0 2 60
+R5
+r1
+!s85 0
+31
+Z18 !s108 1758147099.000000
+!s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/counter.v|
+!i113 1
+R7
+R8
+vcounter_preset
+Z19 !s110 1757088381
+!i10b 1
+!s100 B01>oUOa9zh`S`kI6g8lN1
+R1
+I69Eg<IM2?AoTQbEDf=G200
+R2
+R3
+w1757088363
+Z20 8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/counter_with_preset/counter_with_preset.v
+Z21 FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/counter_with_preset/counter_with_preset.v
+!i122 121
+Z22 L0 1 58
+R5
+r1
+!s85 0
+31
+Z23 !s108 1757088381.000000
+Z24 !s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/counter_with_preset/counter_with_preset.v|
+Z25 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/counter_with_preset/counter_with_preset.v|
+!i113 1
+R7
+R8
+vcounter_preset_tb
+R19
+!i10b 1
+!s100 ]ULKAklWDMG=[5[QlKjjH0
+R1
+IGIk2P9@lGYXa3PHJ5m=4_2
+R2
+R3
+w1757088282
+Z26 8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/counter_with_preset/counter_with_preset_tb.v
+Z27 FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/counter_with_preset/counter_with_preset_tb.v
+!i122 122
+Z28 L0 3 74
+R5
+r1
+!s85 0
+31
+R23
+Z29 !s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/counter_with_preset/counter_with_preset_tb.v|
+Z30 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/counter_with_preset/counter_with_preset_tb.v|
+!i113 1
+R7
+R8
+vcounter_tb
+R17
+!i10b 1
+!s100 8>3H3mYNSfWVF4zfO<`jY2
+R1
+I[J^1UDBo?gk9N03obQCL22
+R2
+R3
+w1757154925
+8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/counter_tb.v
+FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/counter_tb.v
+!i122 1134
+L0 3 77
+R5
+r1
+!s85 0
+31
+Z31 !s108 1758147100.000000
+!s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/counter_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/counter_tb.v|
+!i113 1
+R7
+R8
+vcounter_wih_preset_tb
+Z32 !s110 1758147099
+!i10b 1
+!s100 e]NLCTW7f1NT5<R@kED6Y2
+R1
+IBZ_:NU11HZ8oG`fBUMKIY2
+R2
+R3
+w1757145548
+8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/counter/counter_with_preset/counter_with_preset_tb.v
+FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/counter/counter_with_preset/counter_with_preset_tb.v
+!i122 1132
+R28
+R5
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/counter/counter_with_preset/counter_with_preset_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/counter/counter_with_preset/counter_with_preset_tb.v|
+!i113 1
+R7
+R8
+vcounter_with_preset
+R32
+!i10b 1
+!s100 c<@aBd:jR708ZTzhAlMle2
+R1
+IV8EWE1TBgjLo1P;2zd7;m2
+R2
+R3
+w1757145214
+8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/counter/counter_with_preset/counter_with_preset.v
+FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/counter/counter_with_preset/counter_with_preset.v
+!i122 1131
+R22
+R5
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/counter/counter_with_preset/counter_with_preset.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/counter/counter_with_preset/counter_with_preset.v|
+!i113 1
+R7
+R8
+vdecoder
+Z33 !s110 1758147097
+!i10b 1
+!s100 h><@]5a7Bzc@S?d39h<b22
+R1
+I_VFOZLCNh0C^@GNVj6TDE3
+R2
+R3
+w1757177170
+8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/decoder/decoder.v
+FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/decoder/decoder.v
+!i122 1120
+L0 1 34
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/decoder/decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/decoder/decoder.v|
+!i113 1
+R7
+R8
+vDecoder2
+Z34 !s110 1756807833
+!i10b 1
+!s100 2QRiSYlSz>IP95R@`PX_=2
+R1
+I5BTFjFc2J`mbk9:OnnJ:o2
+R2
+R3
+Z35 w1750259510
+Z36 8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/regfile/regfile.v
+Z37 FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/regfile/regfile.v
+!i122 60
+L0 124 12
+R5
+r1
+!s85 0
+31
+Z38 !s108 1756807833.000000
+Z39 !s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/regfile/regfile.v|
+Z40 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/regfile/regfile.v|
+!i113 1
+R7
+R8
+n@decoder2
+vdecoder3
+Z41 !s110 1758147101
+!i10b 1
+!s100 =LVWRIh;P3;8=05nAPSKn3
+R1
+I^`HR68B`8m1zBlZH:HEh50
+R2
+R3
+w1757074315
+8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/decoder/decoder-1x8.v
+FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/decoder/decoder-1x8.v
+!i122 1139
+L0 1 21
+R5
+r1
+!s85 0
+31
+Z42 !s108 1758147101.000000
+!s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/decoder/decoder-1x8.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/decoder/decoder-1x8.v|
+!i113 1
+R7
+R8
+vDecoder3
+Z43 !s110 1757074540
+!i10b 1
+!s100 ZXOSDYch[FIHb?1aUjZoR3
+R1
+IcDDWhzIN7Xmlg@7>deSk23
+R2
+R3
+Z44 w1747363445
+Z45 8decoder.v
+Z46 Fdecoder.v
+!i122 97
+L0 26 20
+R5
+r1
+!s85 0
+31
+Z47 !s108 1757074540.000000
+Z48 !s107 decoder.v|
+Z49 !s90 -reportprogress|300|decoder.v|
+!i113 1
+R8
+n@decoder3
+vdecoder_1x4
+R41
+!i10b 1
+!s100 ;^`n=LIN]f4zLVm=Ug1R92
+R1
+IJzRjS3jg2IJC=>kSUNVMP0
+R2
+R3
+w1757189436
+8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/decoder_1x4.v
+FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/decoder_1x4.v
+!i122 1141
+L0 3 12
+R5
+r1
+!s85 0
+31
+R42
+!s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/decoder_1x4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/decoder_1x4.v|
+!i113 1
+R7
+R8
+vdecoder_1x4_tb
+!s110 1757189524
+!i10b 1
+!s100 JL0aDz4K]1[h1WcNN`7]C3
+R1
+IV88RI=e1J:^<^b[S[1Lff1
+R2
+R3
+w1757189349
+Z50 8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_decoder_1x4.v
+Z51 FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_decoder_1x4.v
+!i122 213
+Z52 L0 4 41
+R5
+r1
+!s85 0
+31
+!s108 1757189523.000000
+Z53 !s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_decoder_1x4.v|
+Z54 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_decoder_1x4.v|
+!i113 1
+R7
+R8
+vdecoder_tb
+R33
+!i10b 1
+!s100 R^1Rm]<?Xd<hOO;SF;N:`2
+R1
+I?UfS>RL<VkXIlL`dFTV4[1
+R2
+R3
+w1757175109
+8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/decoder/decoder_tb.v
+FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/decoder/decoder_tb.v
+!i122 1121
+L0 1 66
+R5
+r1
+!s85 0
+31
+Z55 !s108 1758147097.000000
+!s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/decoder/decoder_tb.v|
+!s90 -reportprogress|300|-work|work|-covercells|-cover|sbft1|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/decoder/decoder_tb.v|
+!i113 1
+!s102 -covercells -cover sbft1
+o-work work -covercells -cover sbft1
+R8
+vdemux_nbits
+R41
+!i10b 1
+!s100 I17Kk6:1g>l@?j_@1Sbnd0
+R1
+I8M4DXG=P3aOin:36@e6>?2
+R2
+R3
+w1757194551
+8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/demux_nbits.v
+FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/demux_nbits.v
+!i122 1137
+L0 3 18
+R5
+r1
+!s85 0
+31
+R31
+!s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/demux_nbits.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/demux_nbits.v|
+!i113 1
+R7
+R8
+vDemuxBus2
+R34
+!i10b 1
+!s100 e1k7Ybz@TZzJ7IbnLNlDQ2
+R1
+I55DnTM2bW@mbR;beB0zQe2
+R2
+R3
+R35
+R36
+R37
+!i122 60
+L0 104 18
+R5
+r1
+!s85 0
+31
+R38
+R39
+R40
+!i113 1
+R7
+R8
+n@demux@bus2
+vdff
+R41
+!i10b 1
+!s100 em_E?kG3<D0NlRT6KP:mO2
+R1
+Il>G[iN0JB75AOGO5hjc:B1
+R2
+R3
+w1757232260
+8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/dff.v
+FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/dff.v
+!i122 1138
+L0 3 17
+R5
+r1
+!s85 0
+31
+R42
+!s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/dff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/dff.v|
+!i113 1
+R7
+R8
+vDIG_Add
+!s110 1753977775
+!i10b 1
+!s100 gY7];IfLPkTRT:WMiQADD1
+R1
+I<1JIBc8z2UZAA^QiD_On?0
+R2
+dC:/Users/akshi/Desktop/vdp_design/verilog_files/export_digital
+w1748186305
+8C:/Users/akshi/Desktop/vdp_design/verilog_files/export_digital/execute.v
+FC:/Users/akshi/Desktop/vdp_design/verilog_files/export_digital/execute.v
+!i122 23
+R4
+R5
+r1
+!s85 0
+31
+!s108 1753977775.000000
+!s107 C:/Users/akshi/Desktop/vdp_design/verilog_files/export_digital/execute.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/vdp_design/verilog_files/export_digital/execute.v|
+!i113 1
+R7
+R8
+n@d@i@g_@add
+vDIG_CounterPreset
+!s110 1756727697
+!i10b 1
+!s100 lP1V6oFmnUeke=RV2dYe^0
+R1
+I7iOdDefZ5?70R>`2<`N>b2
+R2
+R3
+w1756727671
+R20
+R21
+!i122 54
+L0 5 58
+R5
+r1
+!s85 0
+31
+!s108 1756727697.000000
+R24
+R25
+!i113 1
+R7
+R8
+n@d@i@g_@counter@preset
+vDIG_Register_BUS
+R34
+!i10b 1
+!s100 >`1V9];EOA6h6KQWNP>iC0
+R1
+I>3aNCYIdQG=FTX7mTNS5^1
+R2
+R3
+R35
+R36
+R37
+!i122 60
+L0 138 19
+R5
+r1
+!s85 0
+31
+R38
+R39
+R40
+!i113 1
+R7
+R8
+n@d@i@g_@register_@b@u@s
+veeprom
+R9
+!i10b 1
+!s100 iz>d7dgh8J7G?O6Izh==42
+R1
+INd?WgFC`KI8J]H9KXO3XS3
+R2
+R3
+w1757413602
+Z56 8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/eeprom/eeprom.v
+Z57 FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/eeprom/eeprom.v
+!i122 1118
+Z58 L0 1 32
+R5
+r1
+!s85 0
+31
+R11
+Z59 !s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/eeprom/eeprom.v|
+Z60 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/eeprom/eeprom.v|
+!i113 1
+R7
+R8
+veeprom_tb
+R9
+!i10b 1
+!s100 `g_8@bkZ9=E]X31Bh^>1R0
+R1
+I]P_[`c4SPHn[cH=F7nR812
+R2
+R3
+w1757445685
+Z61 8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/eeprom/eeprom_tb.v
+Z62 FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/eeprom/eeprom_tb.v
+!i122 1119
+L0 2 65
+R5
+r1
+!s85 0
+31
+R11
+Z63 !s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/eeprom/eeprom_tb.v|
+Z64 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/eeprom/eeprom_tb.v|
+!i113 1
+R7
+R8
+vexecute
+R0
+!i10b 1
+!s100 hfnE[dZ=@o7CB3THj@XDU3
+R1
+IeH0b^UKkSEV2RG]gGlSOi0
+R2
+R3
+w1757181536
+8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/executer/execute.v
+FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/executer/execute.v
+!i122 1130
+L0 3 26
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/executer/execute.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/executer/execute.v|
+!i113 1
+R7
+R8
+vmux_2x1_nbits
+R33
+!i10b 1
+!s100 ]g?C45P^Rm_0?RfT^0hU50
+R1
+INoKUOX^O5l6Cn=Ym7130T3
+R2
+R3
+w1756818976
+8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/mux/mux_2x1_nbits.v
+FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/mux/mux_2x1_nbits.v
+!i122 1124
+L0 1 18
+R5
+r1
+!s85 0
+31
+R55
+!s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/mux/mux_2x1_nbits.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/mux/mux_2x1_nbits.v|
+!i113 1
+R7
+R8
+vMux_2x1_NBits
+R43
+!i10b 1
+!s100 W34Y8KdI@^j0KHWcdkgRY3
+R1
+If>I>kZC95I<02b3h]XW4M2
+R2
+R3
+R44
+R45
+R46
+!i122 97
+L0 6 18
+R5
+r1
+!s85 0
+31
+R47
+R48
+R49
+!i113 1
+R8
+n@mux_2x1_@n@bits
+vmux_4cross1_nbits
+!s110 1757187623
+!i10b 1
+!s100 8YOD[e@;PL1kF1FcXV`ZQ3
+R1
+IaB22R444EEQ650CM>e12U2
+R2
+R3
+w1757185502
+Z65 8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/mux_4x1_nbits.v
+Z66 FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/mux_4x1_nbits.v
+!i122 201
+Z67 L0 3 39
+R5
+r1
+!s85 0
+31
+!s108 1757187623.000000
+Z68 !s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/mux_4x1_nbits.v|
+Z69 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/mux_4x1_nbits.v|
+!i113 1
+R7
+R8
+vMux_4x1_NBits
+R34
+!i10b 1
+!s100 ]LWRC0D0bl>77n6U0d8;E1
+R1
+I[<U>^L2e^B>5mnMI03>FQ1
+R2
+R3
+R35
+R36
+R37
+!i122 60
+L0 158 22
+R5
+r1
+!s85 0
+31
+R38
+R39
+R40
+!i113 1
+R7
+R8
+n@mux_4x1_@n@bits
+vmux_4x1_nbits
+R17
+!i10b 1
+!s100 I`Z0Fl]i1EjO[:lomQ<?H2
+R1
+IoTHg=6NR8n5_T>]:gTl=?1
+R2
+R3
+w1757187710
+R65
+R66
+!i122 1135
+R67
+R5
+r1
+!s85 0
+31
+R31
+R68
+R69
+!i113 1
+R7
+R8
+vmux_4x1_nbits_tb
+!s110 1757187624
+!i10b 1
+!s100 ?<;e>Tj3b>JZ77<66B=F^3
+R1
+I9I2Z:e;<e3FMeGkBeA5@E0
+R2
+R3
+w1757186049
+Z70 8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_mux_4x1_nbits.v
+Z71 FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_mux_4x1_nbits.v
+!i122 202
+Z72 L0 3 40
+R5
+r1
+!s85 0
+31
+!s108 1757187624.000000
+Z73 !s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_mux_4x1_nbits.v|
+Z74 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_mux_4x1_nbits.v|
+!i113 1
+R7
+R8
+vpriorityencoder3
+R0
+!i10b 1
+!s100 `i9;LLKlim@e:WcO:QC=@2
+R1
+I[6h2[a9Oz5OoRB]1l4EdL0
+R2
+R3
+w1756819135
+8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/priority_encoder/priorityencoder3.v
+FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/priority_encoder/priorityencoder3.v
+!i122 1125
+R10
+R5
+r1
+!s85 0
+31
+R55
+!s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/priority_encoder/priorityencoder3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/priority_encoder/priorityencoder3.v|
+!i113 1
+R7
+R8
+vprogram3
+!s110 1756667880
+!i10b 1
+!s100 I:K]X=iHbb]9^UgYJ9bAY3
+R1
+IKH=4fQS=IKNI1_Xo=9g:@3
+R2
+R3
+w1756666483
+R56
+R57
+!i122 40
+L0 1 25
+R5
+r1
+!s85 0
+31
+!s108 1756667880.000000
+R59
+R60
+!i113 1
+R7
+R8
+vregfile
+R33
+!i10b 1
+!s100 G4j]j;=C`FmWnX<V[4oBM1
+R1
+I_:PU51fZBMP`H]2Hcz3hM3
+R2
+R3
+w1757237167
+R36
+R37
+!i122 1122
+L0 3 127
+R5
+r1
+!s85 0
+31
+R55
+R39
+R40
+!i113 1
+R7
+R8
+vregfile_tb
+R33
+!i10b 1
+!s100 j7]3h2zaPDmL:8LK2Z?:N1
+R1
+ITBNPf:j@hRM`Ke>Uah`=:0
+R2
+R3
+w1757237420
+Z75 8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/regfile/regfile_tb.v
+Z76 FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/regfile/regfile_tb.v
+!i122 1123
+Z77 L0 1 64
+R5
+r1
+!s85 0
+31
+R55
+Z78 !s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/regfile/regfile_tb.v|
+Z79 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/regfile/regfile_tb.v|
+!i113 1
+R7
+R8
+vtb
+!s110 1757088240
+!i10b 1
+!s100 [NoPJ>NR2_l?8Do4OIf9z1
+R1
+IPP0zPd@VG=P6J?LP]KSlH2
+R2
+R3
+w1750253053
+R26
+R27
+!i122 119
+R58
+R5
+r1
+!s85 0
+31
+!s108 1757088239.000000
+R29
+R30
+!i113 1
+R7
+R8
+vtb_2
+!s110 1757244185
+!i10b 1
+!s100 ZN[XWl]<62m]E=LE?jg4T1
+R1
+IHUiAlE]Y<RczmDhf9D5AX1
+R2
+R3
+w1757244181
+R61
+R62
+!i122 247
+L0 1 73
+R5
+r1
+!s85 0
+31
+!s108 1757244185.000000
+R63
+R64
+!i113 1
+R7
+R8
+vtb_adder_nbits
+R0
+!i10b 1
+!s100 eUS?;?74Qa?@iiSHWM>Wz0
+R1
+IcPm=Z?oSAaH5Z_b4LJ_?X2
+R2
+R3
+w1757157815
+8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/adder/tb_adder_nbits.v
+FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/adder/tb_adder_nbits.v
+!i122 1129
+Z80 L0 3 49
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/adder/tb_adder_nbits.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/adder/tb_adder_nbits.v|
+!i113 1
+R7
+R8
+vtb_assembler
+!s110 1757162020
+!i10b 1
+!s100 5CC`8SKJ[oFQDlm;2`AmP1
+R1
+I37>0gHGYShIAl;@K77?PS2
+R2
+R3
+w1757162016
+R12
+R13
+!i122 152
+R14
+R5
+r1
+!s85 0
+31
+!s108 1757162020.000000
+R15
+R16
+!i113 1
+R7
+R8
+vtb_decoder
+!s110 1757075190
+!i10b 1
+!s100 VCdbgMP>ckYf`IDmPc:oN0
+R1
+IEU4LKI<om[I]0c_DXoF:K2
+R2
+R3
+w1748185693
+8decoder_tb.v
+Fdecoder_tb.v
+!i122 101
+L0 1 52
+R5
+r1
+!s85 0
+31
+!s108 1757075190.000000
+!s107 decoder_tb.v|
+!s90 -reportprogress|300|decoder_tb.v|
+!i113 1
+R8
+vtb_Decoder3
+!s110 1756819352
+!i10b 1
+!s100 [lXjS0_;3<XFbSV?Pea`^0
+R1
+I^IWRm_ZdAcjWEgSlKi>ai2
+R2
+R3
+w1756818748
+8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/decoder/tb_Decoder3.v
+FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/decoder/tb_Decoder3.v
+!i122 72
+Z81 L0 3 43
+R5
+r1
+!s85 0
+31
+!s108 1756819352.000000
+!s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/decoder/tb_Decoder3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/decoder/tb_Decoder3.v|
+!i113 1
+R7
+R8
+ntb_@decoder3
+vtb_decoder3
+R41
+!i10b 1
+!s100 3@z4P@Sb9>Ki6[39BQnaI2
+R1
+Io2FA5XEK?jk@Hho=U?e0Q2
+R2
+R3
+w1756827129
+8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/decoder/tb_decoder_1x8.v
+FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/decoder/tb_decoder_1x8.v
+!i122 1140
+R81
+R5
+r1
+!s85 0
+31
+R42
+!s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/decoder/tb_decoder_1x8.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/decoder/tb_decoder_1x8.v|
+!i113 1
+R7
+R8
+vtb_decoder_1x4
+Z82 !s110 1758147102
+!i10b 1
+!s100 DG0imQZG<UHIYIPZj>Qd00
+R1
+IN0k9]G?I33n::Wl]e0P433
+R2
+R3
+w1757193351
+R50
+R51
+!i122 1142
+R52
+R5
+r1
+!s85 0
+31
+R42
+R53
+R54
+!i113 1
+R7
+R8
+vtb_demux_nbits
+R82
+!i10b 1
+!s100 R^WVA=HSEz<o9G1aD94V;3
+R1
+IN<=V6<>OmQmLABmc_JZD<1
+R2
+R3
+w1757194525
+8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_demux_nbits.v
+FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_demux_nbits.v
+!i122 1143
+L0 3 44
+R5
+r1
+!s85 0
+31
+Z83 !s108 1758147102.000000
+!s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_demux_nbits.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_demux_nbits.v|
+!i113 1
+R7
+R8
+vtb_dff
+!s110 1757234607
+!i10b 1
+!s100 WYl`9:87i[f39PlZLIeKW3
+R1
+Ij?hf@V05=Yn]`TQ@MoZ:i0
+R2
+R3
+w1757234580
+Z84 8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_dff_nbits.v
+Z85 FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_dff_nbits.v
+!i122 237
+Z86 L0 1 61
+R5
+r1
+!s85 0
+31
+!s108 1757234606.000000
+Z87 !s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_dff_nbits.v|
+Z88 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_dff_nbits.v|
+!i113 1
+R7
+R8
+vtb_dff_nbits
+R82
+!i10b 1
+!s100 eQ4`I@>zac2KaNKC5hL<20
+R1
+I`<1fEl3<DA>@[NTP95RHA2
+R2
+R3
+w1757235259
+R84
+R85
+!i122 1144
+R86
+R5
+r1
+!s85 0
+31
+R83
+R87
+R88
+!i113 1
+R7
+R8
+vtb_execute
+R0
+!i10b 1
+!s100 LOPO`9EX<CNoD<QMXV:f>2
+R1
+I_<kI_Xe:`PD^Re0AeZk`>1
+R2
+R3
+w1757181677
+8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/executer/tb_execute.v
+FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/executer/tb_execute.v
+!i122 1127
+L0 1 46
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/executer/tb_execute.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/executer/tb_execute.v|
+!i113 1
+R7
+R8
+vtb_mux_2x1_nbits
+R0
+!i10b 1
+!s100 XFTHKKX3[o[>jKSdKD1>g0
+R1
+IM`DVR55IQe_bFX0X]5FKU2
+R2
+R3
+w1756823387
+8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/mux/tb_mux_2x1_nbits.v
+FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/mux/tb_mux_2x1_nbits.v
+!i122 1126
+L0 3 47
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/mux/tb_mux_2x1_nbits.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/mux/tb_mux_2x1_nbits.v|
+!i113 1
+R7
+R8
+vtb_mux_4x1_nbits
+R17
+!i10b 1
+!s100 VNmSagW>iQORU1]jJd1mm2
+R1
+IYZBF>B5NO?P0[ZGKDX<Vl3
+R2
+R3
+w1757187656
+R70
+R71
+!i122 1136
+R72
+R5
+r1
+!s85 0
+31
+R31
+R73
+R74
+!i113 1
+R7
+R8
+vtb_priorityencoder3
+!s110 1756818763
+!i10b 1
+!s100 iCI35Rz`X;XQmUeb6;Va?3
+R1
+IY8I^oHhET^:55J6_4niB^3
+R2
+R3
+w1756817257
+8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/priority_encoder/Priority_Encoder_Tb.v
+FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/priority_encoder/Priority_Encoder_Tb.v
+!i122 69
+R80
+R5
+r1
+!s85 0
+31
+!s108 1756818763.000000
+!s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/priority_encoder/Priority_Encoder_Tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/priority_encoder/Priority_Encoder_Tb.v|
+!i113 1
+R7
+R8
+vtb_regfile
+!s110 1756736602
+!i10b 1
+!s100 zjo><W1SnT8F2MkhjFFQ72
+R1
+I@X3of4ILP2NUThdzI;EB_3
+R2
+R3
+w1750259679
+R75
+R76
+!i122 59
+R77
+R5
+r1
+!s85 0
+31
+!s108 1756736602.000000
+R78
+R79
+!i113 1
+R7
+R8
+vtb_top
+!s110 1758147491
+!i10b 1
+!s100 Di3Fl5jb>D>M?6R78VSQf1
+R1
+I=lRZ4>jPU@dXFWI5oma?f1
+R2
+R3
+w1757508034
+8tb_top.v
+Ftb_top.v
+!i122 1147
+L0 3 131
+R5
+r1
+!s85 0
+31
+!s108 1758147491.000000
+!s107 tb_top.v|top.v|
+!s90 -reportprogress|300|-cover|bcet|top.v|tb_top.v|
+!i113 1
+!s102 -cover bcet
+o-cover bcet
+R8
+vtop
+!s110 1758147605
+!i10b 1
+!s100 iVIDePH3VS<SYX5HBM5D50
+R1
+IWm7XoHlL4HGO>E8oR;7D31
+R2
+R3
+w1758147597
+8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/top.v
+FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/top.v
+!i122 1149
+L0 4 146
+R5
+r1
+!s85 0
+31
+!s108 1758147605.000000
+!s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/top.v|
+!i113 1
+R7
+R8
+vtop_tb
+!s110 1757277017
+!i10b 1
+!s100 OEzenRC13DDOnUSf0JQOm2
+R1
+IQ0@6R616=FCY@0XhnT4nG1
+R2
+R3
+w1757273508
+8C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_top.v
+FC:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_top.v
+!i122 536
+L0 3 100
+R5
+r1
+!s85 0
+31
+!s108 1757277017.000000
+!s107 C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_top.v|
+!i113 1
+R7
+R8

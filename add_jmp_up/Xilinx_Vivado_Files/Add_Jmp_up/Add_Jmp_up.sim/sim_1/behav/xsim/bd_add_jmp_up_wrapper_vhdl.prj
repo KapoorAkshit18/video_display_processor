@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Add_Jmp_up.ip_user_files/bd/bd_add_jmp_up/ip/bd_add_jmp_up_axi_gpio_0_0/sim/bd_add_jmp_up_axi_gpio_0_0.vhd" \
+"../../../../Add_Jmp_up.ip_user_files/bd/bd_add_jmp_up/ip/bd_add_jmp_up_rst_ps8_0_100M_0/sim/bd_add_jmp_up_rst_ps8_0_100M_0.vhd" \
+
+# Do not sort compile order
+nosort

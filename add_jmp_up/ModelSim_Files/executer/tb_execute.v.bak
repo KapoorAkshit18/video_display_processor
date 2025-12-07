@@ -1,0 +1,46 @@
+module tb_execute;
+
+  // Inputs
+  reg [15:0] a;
+  reg [15:0] b;
+  reg add;
+
+  // Output
+  wire [15:0] result;
+
+  // Instantiate the Unit Under Test (UUT)
+  execute uut (
+    .a(a),
+    .b(b),
+    .add(add),
+    .result(result)
+  );
+
+  initial begin
+    $display("Time\tadd\ta\t\tb\t\tresult");
+    $monitor("%0t\t%b\t%h\t%h\t%h", $time, add, a, b, result);
+
+    // Case 1: add = 0 ? result = b
+    a = 16'h000A;
+    b = 16'h0005;
+    add = 0;
+    #10;
+
+    // Case 2: add = 1 ? result = a + b = 0x000A + 0x0005 = 0x000F
+    add = 1;
+    #10;
+
+    // Case 3: add = 1 ? a + b = 0xFFFF + 0x0001 = 0x0000 with carry
+    a = 16'hFFFF;
+    b = 16'h0001;
+    add = 1;
+    #10;
+
+    // Case 4: add = 0 ? result = b (unchanged)
+    add = 0;
+    #10;
+
+    $finish;
+  end
+
+endmodule

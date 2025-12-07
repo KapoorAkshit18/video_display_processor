@@ -1,0 +1,224 @@
+C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/decoder_1x4.v {1 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/decoder_1x4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module decoder_1x4
+
+Top level modules:
+	decoder_1x4
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/regfile/regfile.v {1 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/regfile/regfile.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/decoder/decoder.v {1 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/decoder/decoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module decoder
+
+Top level modules:
+	decoder
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/assembler/assembler.v {1 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/assembler/assembler.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module assembler
+
+Top level modules:
+	assembler
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_dff_nbits.v {2 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_dff_nbits.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_dff_nbits
+** Warning: C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_dff_nbits.v(34): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_dff_nbits.v(39): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_dff_nbits.v(44): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_dff_nbits.v(49): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_dff_nbits.v(54): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	tb_dff_nbits
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/executer/tb_execute.v {1 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/executer/tb_execute.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_execute
+
+Top level modules:
+	tb_execute
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/counter_tb.v {1 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/counter_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter_tb
+
+Top level modules:
+	counter_tb
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/counter/counter_with_preset/counter_with_preset_tb.v {1 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/counter/counter_with_preset/counter_with_preset_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter_wih_preset_tb
+
+Top level modules:
+	counter_wih_preset_tb
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/adder/adder_nbits.v {1 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/adder/adder_nbits.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder_nbits
+
+Top level modules:
+	adder_nbits
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_demux_nbits.v {2 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_demux_nbits.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_demux_nbits
+** Warning: C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_demux_nbits.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	tb_demux_nbits
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/executer/execute.v {1 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/executer/execute.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module execute
+
+Top level modules:
+	execute
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_top.v {1 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_top.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_top
+
+Top level modules:
+	tb_top
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/decoder/tb_decoder_1x8.v {1 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/decoder/tb_decoder_1x8.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_decoder3
+
+Top level modules:
+	tb_decoder3
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/demux_nbits.v {1 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/demux_nbits.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module demux_nbits
+
+Top level modules:
+	demux_nbits
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_mux_4x1_nbits.v {1 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_mux_4x1_nbits.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_mux_4x1_nbits
+
+Top level modules:
+	tb_mux_4x1_nbits
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/adder/tb_adder_nbits.v {1 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/adder/tb_adder_nbits.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_adder_nbits
+
+Top level modules:
+	tb_adder_nbits
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/top.v {1 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/top.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/mux/mux_2x1_nbits.v {1 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/mux/mux_2x1_nbits.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux_2x1_nbits
+
+Top level modules:
+	mux_2x1_nbits
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/eeprom/eeprom_tb.v {1 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/eeprom/eeprom_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module eeprom_tb
+
+Top level modules:
+	eeprom_tb
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/priority_encoder/priorityencoder3.v {1 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/priority_encoder/priorityencoder3.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module priorityencoder3
+
+Top level modules:
+	priorityencoder3
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/mux_4x1_nbits.v {1 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/mux_4x1_nbits.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux_4x1_nbits
+
+Top level modules:
+	mux_4x1_nbits
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/eeprom/eeprom.v {1 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/eeprom/eeprom.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module eeprom
+
+Top level modules:
+	eeprom
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_decoder_1x4.v {1 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/tb_decoder_1x4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_decoder_1x4
+
+Top level modules:
+	tb_decoder_1x4
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/counter.v {1 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/regfile/regfile_tb.v {1 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/regfile/regfile_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module regfile_tb
+
+Top level modules:
+	regfile_tb
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/dff.v {1 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/dff.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dff
+
+Top level modules:
+	dff
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/counter/counter_with_preset/counter_with_preset.v {1 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/counter/counter_with_preset/counter_with_preset.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter_with_preset
+
+Top level modules:
+	counter_with_preset
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/assembler/assembler_tb.v {1 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/assembler/assembler_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module assembler_tb
+
+Top level modules:
+	assembler_tb
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/decoder/decoder_tb.v {1 {vlog -work work -covercells -cover sbft1 -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/decoder/decoder_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module decoder_tb
+
+Top level modules:
+	decoder_tb
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/decoder/decoder-1x8.v {1 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/decoder/decoder-1x8.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module decoder3
+
+Top level modules:
+	decoder3
+
+} {} {}} C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/mux/tb_mux_2x1_nbits.v {1 {vlog -work work -stats=none C:/Users/akshi/Desktop/prev/vdp_design/verilog_files/export_digital/my_library_hdl/mux/tb_mux_2x1_nbits.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_mux_2x1_nbits
+
+Top level modules:
+	tb_mux_2x1_nbits
+
+} {} {}}

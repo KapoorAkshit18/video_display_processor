@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Add_Jmp_up.srcs/sources_1/imports/all files for vivado/add_jump_cpu.v" \
+"../../../../Add_Jmp_up.srcs/sources_1/imports/all files for vivado/adder_nbits.v" \
+"../../../../Add_Jmp_up.srcs/sources_1/imports/all files for vivado/assembler.v" \
+"../../../../Add_Jmp_up.srcs/sources_1/imports/all files for vivado/counter_with_preset.v" \
+"../../../../Add_Jmp_up.srcs/sources_1/imports/all files for vivado/decoder-1x8.v" \
+"../../../../Add_Jmp_up.srcs/sources_1/imports/all files for vivado/decoder.v" \
+"../../../../Add_Jmp_up.srcs/sources_1/imports/all files for vivado/decoder_1x4.v" \
+"../../../../Add_Jmp_up.srcs/sources_1/imports/all files for vivado/demux_nbits.v" \
+"../../../../Add_Jmp_up.srcs/sources_1/imports/all files for vivado/dff.v" \
+"../../../../Add_Jmp_up.srcs/sources_1/imports/all files for vivado/eeprom.v" \
+"../../../../Add_Jmp_up.srcs/sources_1/imports/all files for vivado/execute.v" \
+"../../../../Add_Jmp_up.srcs/sources_1/imports/all files for vivado/mux_2x1_nbits.v" \
+"../../../../Add_Jmp_up.srcs/sources_1/imports/all files for vivado/mux_4x1_nbits.v" \
+"../../../../Add_Jmp_up.srcs/sources_1/imports/all files for vivado/priorityencoder3.v" \
+"../../../../Add_Jmp_up.srcs/sources_1/imports/all files for vivado/regfile.v" \
+"../../../../Add_Jmp_up.srcs/sim_1/imports/all files for vivado/tb_add_jump_cpu.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

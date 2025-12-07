@@ -1,0 +1,664 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Oct  1 18:38:51 2025
+# Process ID: 49136
+# Current directory: C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.runs/synth_1
+# Command line: vivado.exe -log fpga_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fpga_top.tcl
+# Log file: C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.runs/synth_1/fpga_top.vds
+# Journal file: C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source fpga_top.tcl -notrace
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 304.871 ; gain = 73.051
+Command: synth_design -top fpga_top -part xczu7ev-ffvc1156-2-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 28488 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 414.453 ; gain = 96.730
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'fpga_top' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:7]
+INFO: [Synth 8-6157] synthesizing module 'debounce_onepulse' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/debounce_onepulse.v:1]
+	Parameter DEBOUNCE_CYCLES bound to: 20000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'debounce_onepulse' (1#1) [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/debounce_onepulse.v:1]
+INFO: [Synth 8-6157] synthesizing module 'add_jump_cpu' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/add_jump_cpu.v:6]
+INFO: [Synth 8-6157] synthesizing module 'assembler' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/assembler.v:1]
+INFO: [Synth 8-6157] synthesizing module 'priorityencoder3' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/priorityencoder3.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'priorityencoder3' (2#1) [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/priorityencoder3.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'assembler' (3#1) [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/assembler.v:1]
+INFO: [Synth 8-6157] synthesizing module 'eeprom' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/eeprom.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'eeprom' (4#1) [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/eeprom.v:1]
+INFO: [Synth 8-6157] synthesizing module 'counter_with_preset' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/counter_with_preset.v:1]
+	Parameter bits bound to: 4 - type: integer 
+	Parameter maxvalue bound to: 15 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'counter_with_preset' (5#1) [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/counter_with_preset.v:1]
+WARNING: [Synth 8-350] instance 'u_pc' of module 'counter_with_preset' requires 8 connections, but only 7 given [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/add_jump_cpu.v:88]
+INFO: [Synth 8-6157] synthesizing module 'decoder' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/decoder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux_2x1_nbits' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/mux_2x1_nbits.v:1]
+	Parameter bits bound to: 32 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/mux_2x1_nbits.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'mux_2x1_nbits' (6#1) [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/mux_2x1_nbits.v:1]
+INFO: [Synth 8-6157] synthesizing module 'decoder3' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/decoder-1x8.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'decoder3' (7#1) [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/decoder-1x8.v:1]
+WARNING: [Synth 8-350] instance 'decoder3_i1' of module 'decoder3' requires 9 connections, but only 3 given [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/decoder.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'decoder' (8#1) [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/decoder.v:1]
+WARNING: [Synth 8-350] instance 'u_decoder' of module 'decoder' requires 9 connections, but only 8 given [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/add_jump_cpu.v:103]
+INFO: [Synth 8-6157] synthesizing module 'execute' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/execute.v:3]
+INFO: [Synth 8-6157] synthesizing module 'adder_nbits' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/adder_nbits.v:1]
+	Parameter bits bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'adder_nbits' (9#1) [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/adder_nbits.v:1]
+WARNING: [Synth 8-350] instance 'adder_nbits_i0' of module 'adder_nbits' requires 5 connections, but only 4 given [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/execute.v:13]
+INFO: [Synth 8-6157] synthesizing module 'mux_2x1_nbits__parameterized0' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/mux_2x1_nbits.v:1]
+	Parameter bits bound to: 16 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/mux_2x1_nbits.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'mux_2x1_nbits__parameterized0' (9#1) [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/mux_2x1_nbits.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'execute' (10#1) [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/execute.v:3]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/regfile.v:3]
+INFO: [Synth 8-6157] synthesizing module 'demux_nbits' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/demux_nbits.v:3]
+	Parameter bits bound to: 16 - type: integer 
+	Parameter otherwise bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'demux_nbits' (11#1) [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/demux_nbits.v:3]
+INFO: [Synth 8-6157] synthesizing module 'decoder_1x4' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/decoder_1x4.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'decoder_1x4' (12#1) [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/decoder_1x4.v:3]
+INFO: [Synth 8-6157] synthesizing module 'dff' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:3]
+	Parameter bits bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'dff' (13#1) [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:3]
+INFO: [Synth 8-6157] synthesizing module 'mux_4x1_nbits' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/mux_4x1_nbits.v:3]
+	Parameter bits bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux_4x1_nbits' (14#1) [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/mux_4x1_nbits.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (15#1) [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/regfile.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'add_jump_cpu' (16#1) [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/add_jump_cpu.v:6]
+INFO: [Synth 8-6157] synthesizing module 'probe_registers' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:2]
+WARNING: [Synth 8-3848] Net pc in module/entity probe_registers does not have driver. [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'probe_registers' (17#1) [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:2]
+WARNING: [Synth 8-350] instance 'u_ila' of module 'probe_registers' requires 13 connections, but only 7 given [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+INFO: [Synth 8-6155] done synthesizing module 'fpga_top' (18#1) [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:7]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 469.734 ; gain = 152.012
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_b[15] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_b[14] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_b[13] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_b[12] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_b[11] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_b[10] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_b[9] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_b[8] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_b[7] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_b[6] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_b[5] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_b[4] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_b[3] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_b[2] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_b[1] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_b[0] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r0[15] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r0[14] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r0[13] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r0[12] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r0[11] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r0[10] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r0[9] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r0[8] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r0[7] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r0[6] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r0[5] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r0[4] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r0[3] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r0[2] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r0[1] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r0[0] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r1[15] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r1[14] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r1[13] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r1[12] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r1[11] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r1[10] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r1[9] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r1[8] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r1[7] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r1[6] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r1[5] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r1[4] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r1[3] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r1[2] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r1[1] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r1[0] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r2[15] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r2[14] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r2[13] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r2[12] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r2[11] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r2[10] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r2[9] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r2[8] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r2[7] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r2[6] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r2[5] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r2[4] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r2[3] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r2[2] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r2[1] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r2[0] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r3[15] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r3[14] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r3[13] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r3[12] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r3[11] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r3[10] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r3[9] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r3[8] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r3[7] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r3[6] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r3[5] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r3[4] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r3[3] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r3[2] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r3[1] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+WARNING: [Synth 8-3295] tying undriven pin u_ila:o_r3[0] to constant 0 [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v:89]
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 469.734 ; gain = 152.012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 469.734 ; gain = 152.012
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xczu7ev-ffvc1156-2-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/akshi/vdp_level_2/vdp_level_2.srcs/constrs_1/new/ultrascale_base.xdc]
+WARNING: [Vivado 12-584] No ports matched 'dip_ctrl[3]'. [C:/Users/akshi/vdp_level_2/vdp_level_2.srcs/constrs_1/new/ultrascale_base.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/akshi/vdp_level_2/vdp_level_2.srcs/constrs_1/new/ultrascale_base.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'dip_ctrl[3]'. [C:/Users/akshi/vdp_level_2/vdp_level_2.srcs/constrs_1/new/ultrascale_base.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/akshi/vdp_level_2/vdp_level_2.srcs/constrs_1/new/ultrascale_base.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_prog'. [C:/Users/akshi/vdp_level_2/vdp_level_2.srcs/constrs_1/new/ultrascale_base.xdc:96]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/akshi/vdp_level_2/vdp_level_2.srcs/constrs_1/new/ultrascale_base.xdc:96]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_prog'. [C:/Users/akshi/vdp_level_2/vdp_level_2.srcs/constrs_1/new/ultrascale_base.xdc:97]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/akshi/vdp_level_2/vdp_level_2.srcs/constrs_1/new/ultrascale_base.xdc:97]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_add'. [C:/Users/akshi/vdp_level_2/vdp_level_2.srcs/constrs_1/new/ultrascale_base.xdc:99]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/akshi/vdp_level_2/vdp_level_2.srcs/constrs_1/new/ultrascale_base.xdc:99]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_add'. [C:/Users/akshi/vdp_level_2/vdp_level_2.srcs/constrs_1/new/ultrascale_base.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/akshi/vdp_level_2/vdp_level_2.srcs/constrs_1/new/ultrascale_base.xdc:100]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_jump'. [C:/Users/akshi/vdp_level_2/vdp_level_2.srcs/constrs_1/new/ultrascale_base.xdc:102]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/akshi/vdp_level_2/vdp_level_2.srcs/constrs_1/new/ultrascale_base.xdc:102]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_jump'. [C:/Users/akshi/vdp_level_2/vdp_level_2.srcs/constrs_1/new/ultrascale_base.xdc:103]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/akshi/vdp_level_2/vdp_level_2.srcs/constrs_1/new/ultrascale_base.xdc:103]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/akshi/vdp_level_2/vdp_level_2.srcs/constrs_1/new/ultrascale_base.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/akshi/vdp_level_2/vdp_level_2.srcs/constrs_1/new/ultrascale_base.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/fpga_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/fpga_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1566.086 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:25 ; elapsed = 00:00:41 . Memory (MB): peak = 1566.086 ; gain = 1248.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu7ev-ffvc1156-2-e
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:25 ; elapsed = 00:00:41 . Memory (MB): peak = 1566.086 ; gain = 1248.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:42 . Memory (MB): peak = 1566.086 ; gain = 1248.363
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "dout_0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "dout_1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "dout_2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "dout_3" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "dout_4" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "dout_5" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "dout_6" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "dout_7" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "out_0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "out_1" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "out_2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "out_3" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:42 . Memory (MB): peak = 1566.086 ; gain = 1248.363
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     17 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 4     
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 13    
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 20    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 16    
+	   2 Input      4 Bit        Muxes := 4     
+	   9 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 13    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module debounce_onepulse 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+Module priorityencoder3 
+Detailed RTL Component Info : 
++---Muxes : 
+	   9 Input      3 Bit        Muxes := 1     
+Module counter_with_preset 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+Module mux_2x1_nbits 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module decoder3 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 8     
+Module adder_nbits 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     17 Bit       Adders := 1     
+Module mux_2x1_nbits__parameterized0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module demux_nbits 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 4     
+Module decoder_1x4 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+Module dff 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+Module probe_registers 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 5     
+	                4 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1728 (col length:144)
+BRAMs: 624 (col length: RAMB18 144 RAMB36 72)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3917] design fpga_top has port w2_dbg[31] driven by constant 0
+WARNING: [Synth 8-3917] design fpga_top has port w2_dbg[30] driven by constant 0
+WARNING: [Synth 8-3917] design fpga_top has port w2_dbg[29] driven by constant 0
+WARNING: [Synth 8-3917] design fpga_top has port w2_dbg[28] driven by constant 0
+WARNING: [Synth 8-3917] design fpga_top has port w2_dbg[27] driven by constant 0
+WARNING: [Synth 8-3917] design fpga_top has port w2_dbg[23] driven by constant 0
+WARNING: [Synth 8-3917] design fpga_top has port w2_dbg[22] driven by constant 0
+WARNING: [Synth 8-3917] design fpga_top has port w2_dbg[21] driven by constant 0
+WARNING: [Synth 8-3917] design fpga_top has port w2_dbg[19] driven by constant 0
+WARNING: [Synth 8-3917] design fpga_top has port w2_dbg[18] driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:45 . Memory (MB): peak = 1566.086 ; gain = 1248.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+-------------------------+-----------+----------------------+-----------------+
+|Module Name | RTL Object              | Inference | Size (Depth x Width) | Primitives      | 
++------------+-------------------------+-----------+----------------------+-----------------+
+|fpga_top    | u_core/u_eeprom/rom_reg | Implied   | 16 x 32              | RAM16X1S x 32   | 
++------------+-------------------------+-----------+----------------------+-----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:49 ; elapsed = 00:01:22 . Memory (MB): peak = 1980.199 ; gain = 1662.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:49 ; elapsed = 00:01:22 . Memory (MB): peak = 2001.723 ; gain = 1684.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++------------+-------------------------+-----------+----------------------+-----------------+
+|Module Name | RTL Object              | Inference | Size (Depth x Width) | Primitives      | 
++------------+-------------------------+-----------+----------------------+-----------------+
+|fpga_top    | u_core/u_eeprom/rom_reg | Implied   | 16 x 32              | RAM16X1S x 32   | 
++------------+-------------------------+-----------+----------------------+-----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:49 ; elapsed = 00:01:23 . Memory (MB): peak = 2003.438 ; gain = 1685.715
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:50 ; elapsed = 00:01:24 . Memory (MB): peak = 2003.438 ; gain = 1685.715
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-3352] multi-driven net pc_OBUF[3] with 1st driver pin 'u_core/u_pc/count_reg[3]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/counter_with_preset.v:25]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net pc_OBUF[3] with 2nd driver pin 'u_ila/probe_pc_reg[3]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:19]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net pc_OBUF[2] with 1st driver pin 'u_core/u_pc/count_reg[2]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/counter_with_preset.v:25]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net pc_OBUF[2] with 2nd driver pin 'u_ila/probe_pc_reg[2]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:19]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net pc_OBUF[1] with 1st driver pin 'u_core/u_pc/count_reg[1]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/counter_with_preset.v:25]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net pc_OBUF[1] with 2nd driver pin 'u_ila/probe_pc_reg[1]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:19]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net pc_OBUF[0] with 1st driver pin 'u_core/u_pc/count_reg[0]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/counter_with_preset.v:25]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net pc_OBUF[0] with 2nd driver pin 'u_ila/probe_pc_reg[0]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:19]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[15] with 1st driver pin 'u_core/u_regfile/dff_reg_bus0/state_reg[15]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[15] with 2nd driver pin 'u_ila/probe_r0_reg[15]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:21]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[14] with 1st driver pin 'u_core/u_regfile/dff_reg_bus0/state_reg[14]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[14] with 2nd driver pin 'u_ila/probe_r0_reg[14]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:21]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[13] with 1st driver pin 'u_core/u_regfile/dff_reg_bus0/state_reg[13]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[13] with 2nd driver pin 'u_ila/probe_r0_reg[13]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:21]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[12] with 1st driver pin 'u_core/u_regfile/dff_reg_bus0/state_reg[12]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[12] with 2nd driver pin 'u_ila/probe_r0_reg[12]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:21]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[11] with 1st driver pin 'u_core/u_regfile/dff_reg_bus0/state_reg[11]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[11] with 2nd driver pin 'u_ila/probe_r0_reg[11]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:21]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[10] with 1st driver pin 'u_core/u_regfile/dff_reg_bus0/state_reg[10]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[10] with 2nd driver pin 'u_ila/probe_r0_reg[10]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:21]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[9] with 1st driver pin 'u_core/u_regfile/dff_reg_bus0/state_reg[9]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[9] with 2nd driver pin 'u_ila/probe_r0_reg[9]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:21]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[8] with 1st driver pin 'u_core/u_regfile/dff_reg_bus0/state_reg[8]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[8] with 2nd driver pin 'u_ila/probe_r0_reg[8]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:21]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[7] with 1st driver pin 'u_core/u_regfile/dff_reg_bus0/state_reg[7]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[7] with 2nd driver pin 'u_ila/probe_r0_reg[7]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:21]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[6] with 1st driver pin 'u_core/u_regfile/dff_reg_bus0/state_reg[6]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[6] with 2nd driver pin 'u_ila/probe_r0_reg[6]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:21]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[5] with 1st driver pin 'u_core/u_regfile/dff_reg_bus0/state_reg[5]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[5] with 2nd driver pin 'u_ila/probe_r0_reg[5]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:21]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[4] with 1st driver pin 'u_core/u_regfile/dff_reg_bus0/state_reg[4]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[4] with 2nd driver pin 'u_ila/probe_r0_reg[4]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:21]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[3] with 1st driver pin 'u_core/u_regfile/dff_reg_bus0/state_reg[3]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[3] with 2nd driver pin 'u_ila/probe_r0_reg[3]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:21]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[2] with 1st driver pin 'u_core/u_regfile/dff_reg_bus0/state_reg[2]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[2] with 2nd driver pin 'u_ila/probe_r0_reg[2]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:21]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[1] with 1st driver pin 'u_core/u_regfile/dff_reg_bus0/state_reg[1]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[1] with 2nd driver pin 'u_ila/probe_r0_reg[1]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:21]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[0] with 1st driver pin 'u_core/u_regfile/dff_reg_bus0/state_reg[0]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r0_OBUF[0] with 2nd driver pin 'u_ila/probe_r0_reg[0]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:21]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[15] with 1st driver pin 'u_core/u_regfile/dff_reg_bus1/state_reg[15]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[15] with 2nd driver pin 'u_ila/probe_r1_reg[15]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:22]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[14] with 1st driver pin 'u_core/u_regfile/dff_reg_bus1/state_reg[14]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[14] with 2nd driver pin 'u_ila/probe_r1_reg[14]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:22]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[13] with 1st driver pin 'u_core/u_regfile/dff_reg_bus1/state_reg[13]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[13] with 2nd driver pin 'u_ila/probe_r1_reg[13]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:22]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[12] with 1st driver pin 'u_core/u_regfile/dff_reg_bus1/state_reg[12]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[12] with 2nd driver pin 'u_ila/probe_r1_reg[12]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:22]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[11] with 1st driver pin 'u_core/u_regfile/dff_reg_bus1/state_reg[11]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[11] with 2nd driver pin 'u_ila/probe_r1_reg[11]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:22]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[10] with 1st driver pin 'u_core/u_regfile/dff_reg_bus1/state_reg[10]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[10] with 2nd driver pin 'u_ila/probe_r1_reg[10]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:22]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[9] with 1st driver pin 'u_core/u_regfile/dff_reg_bus1/state_reg[9]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[9] with 2nd driver pin 'u_ila/probe_r1_reg[9]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:22]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[8] with 1st driver pin 'u_core/u_regfile/dff_reg_bus1/state_reg[8]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[8] with 2nd driver pin 'u_ila/probe_r1_reg[8]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:22]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[7] with 1st driver pin 'u_core/u_regfile/dff_reg_bus1/state_reg[7]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[7] with 2nd driver pin 'u_ila/probe_r1_reg[7]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:22]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[6] with 1st driver pin 'u_core/u_regfile/dff_reg_bus1/state_reg[6]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[6] with 2nd driver pin 'u_ila/probe_r1_reg[6]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:22]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[5] with 1st driver pin 'u_core/u_regfile/dff_reg_bus1/state_reg[5]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[5] with 2nd driver pin 'u_ila/probe_r1_reg[5]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:22]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[4] with 1st driver pin 'u_core/u_regfile/dff_reg_bus1/state_reg[4]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[4] with 2nd driver pin 'u_ila/probe_r1_reg[4]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:22]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[3] with 1st driver pin 'u_core/u_regfile/dff_reg_bus1/state_reg[3]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[3] with 2nd driver pin 'u_ila/probe_r1_reg[3]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:22]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[2] with 1st driver pin 'u_core/u_regfile/dff_reg_bus1/state_reg[2]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[2] with 2nd driver pin 'u_ila/probe_r1_reg[2]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:22]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[1] with 1st driver pin 'u_core/u_regfile/dff_reg_bus1/state_reg[1]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[1] with 2nd driver pin 'u_ila/probe_r1_reg[1]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:22]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[0] with 1st driver pin 'u_core/u_regfile/dff_reg_bus1/state_reg[0]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r1_OBUF[0] with 2nd driver pin 'u_ila/probe_r1_reg[0]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:22]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r2_OBUF[15] with 1st driver pin 'u_core/u_regfile/dff_reg_bus2/state_reg[15]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r2_OBUF[15] with 2nd driver pin 'u_ila/probe_r2_reg[15]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:23]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r2_OBUF[14] with 1st driver pin 'u_core/u_regfile/dff_reg_bus2/state_reg[14]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r2_OBUF[14] with 2nd driver pin 'u_ila/probe_r2_reg[14]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:23]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r2_OBUF[13] with 1st driver pin 'u_core/u_regfile/dff_reg_bus2/state_reg[13]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r2_OBUF[13] with 2nd driver pin 'u_ila/probe_r2_reg[13]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:23]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r2_OBUF[12] with 1st driver pin 'u_core/u_regfile/dff_reg_bus2/state_reg[12]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r2_OBUF[12] with 2nd driver pin 'u_ila/probe_r2_reg[12]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:23]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r2_OBUF[11] with 1st driver pin 'u_core/u_regfile/dff_reg_bus2/state_reg[11]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r2_OBUF[11] with 2nd driver pin 'u_ila/probe_r2_reg[11]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:23]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r2_OBUF[10] with 1st driver pin 'u_core/u_regfile/dff_reg_bus2/state_reg[10]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r2_OBUF[10] with 2nd driver pin 'u_ila/probe_r2_reg[10]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:23]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r2_OBUF[9] with 1st driver pin 'u_core/u_regfile/dff_reg_bus2/state_reg[9]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r2_OBUF[9] with 2nd driver pin 'u_ila/probe_r2_reg[9]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:23]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r2_OBUF[8] with 1st driver pin 'u_core/u_regfile/dff_reg_bus2/state_reg[8]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r2_OBUF[8] with 2nd driver pin 'u_ila/probe_r2_reg[8]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:23]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r2_OBUF[7] with 1st driver pin 'u_core/u_regfile/dff_reg_bus2/state_reg[7]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r2_OBUF[7] with 2nd driver pin 'u_ila/probe_r2_reg[7]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:23]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r2_OBUF[6] with 1st driver pin 'u_core/u_regfile/dff_reg_bus2/state_reg[6]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r2_OBUF[6] with 2nd driver pin 'u_ila/probe_r2_reg[6]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:23]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r2_OBUF[5] with 1st driver pin 'u_core/u_regfile/dff_reg_bus2/state_reg[5]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r2_OBUF[5] with 2nd driver pin 'u_ila/probe_r2_reg[5]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:23]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r2_OBUF[4] with 1st driver pin 'u_core/u_regfile/dff_reg_bus2/state_reg[4]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r2_OBUF[4] with 2nd driver pin 'u_ila/probe_r2_reg[4]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:23]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r2_OBUF[3] with 1st driver pin 'u_core/u_regfile/dff_reg_bus2/state_reg[3]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r2_OBUF[3] with 2nd driver pin 'u_ila/probe_r2_reg[3]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:23]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r2_OBUF[2] with 1st driver pin 'u_core/u_regfile/dff_reg_bus2/state_reg[2]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v:14]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net o_r2_OBUF[2] with 2nd driver pin 'u_ila/probe_r2_reg[2]/Q' [C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v:23]
+INFO: [Common 17-14] Message 'Synth 8-3352' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|       84|Failed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:50 ; elapsed = 00:01:24 . Memory (MB): peak = 2003.438 ; gain = 1685.715
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:51 ; elapsed = 00:01:25 . Memory (MB): peak = 2003.438 ; gain = 1685.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:51 ; elapsed = 00:01:25 . Memory (MB): peak = 2003.438 ; gain = 1685.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:51 ; elapsed = 00:01:25 . Memory (MB): peak = 2003.438 ; gain = 1685.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:51 ; elapsed = 00:01:25 . Memory (MB): peak = 2003.438 ; gain = 1685.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     2|
+|2     |CARRY8   |     2|
+|3     |LUT1     |     3|
+|4     |LUT2     |    22|
+|5     |LUT3     |    20|
+|6     |LUT4     |    40|
+|7     |LUT5     |    49|
+|8     |LUT6     |    53|
+|9     |RAM16X1S |    21|
+|10    |FDRE     |   236|
+|11    |IBUF     |    24|
+|12    |OBUF     |   117|
++------+---------+------+
+
+Report Instance Areas: 
++------+---------------------+--------------------+------+
+|      |Instance             |Module              |Cells |
++------+---------------------+--------------------+------+
+|1     |top                  |                    |   589|
+|2     |  u_core             |add_jump_cpu        |   165|
+|3     |    u_eeprom         |eeprom              |    95|
+|4     |    u_execute        |execute             |     2|
+|5     |      adder_nbits_i0 |adder_nbits         |     2|
+|6     |    u_pc             |counter_with_preset |     4|
+|7     |    u_regfile        |regfile             |    64|
+|8     |      dff_reg_bus0   |dff                 |    16|
+|9     |      dff_reg_bus1   |dff_3               |    16|
+|10    |      dff_reg_bus2   |dff_4               |    16|
+|11    |      dff_reg_bus3   |dff_5               |    16|
+|12    |  u_ila              |probe_registers     |    84|
+|13    |  udb_add            |debounce_onepulse   |    50|
+|14    |  udb_adv            |debounce_onepulse_0 |    49|
+|15    |  udb_dest_msb       |debounce_onepulse_1 |    49|
+|16    |  udb_jump           |debounce_onepulse_2 |    49|
++------+---------------------+--------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:51 ; elapsed = 00:01:25 . Memory (MB): peak = 2003.438 ; gain = 1685.715
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 168 critical warnings and 10 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:30 ; elapsed = 00:00:57 . Memory (MB): peak = 2003.438 ; gain = 589.363
+Synthesis Optimization Complete : Time (s): cpu = 00:00:51 ; elapsed = 00:01:25 . Memory (MB): peak = 2003.438 ; gain = 1685.715
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 49 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 47 instances were transformed.
+  BUFG => BUFGCE: 2 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 24 instances
+  RAM16X1S => RAM32X1S (RAMS32): 21 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+65 Infos, 104 Warnings, 108 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:54 ; elapsed = 00:01:30 . Memory (MB): peak = 2029.641 ; gain = 1724.770
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.runs/synth_1/fpga_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file fpga_top_utilization_synth.rpt -pb fpga_top_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.350 . Memory (MB): peak = 2029.641 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Oct  1 18:40:51 2025...

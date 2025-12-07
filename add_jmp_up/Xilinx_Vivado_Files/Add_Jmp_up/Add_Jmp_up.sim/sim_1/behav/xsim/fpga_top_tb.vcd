@@ -1,0 +1,808 @@
+$date
+   Tue Sep 30 21:14:12 2025
+$end
+$version
+  2018.2
+$end
+$timescale
+  1ps
+$end
+$scope module tb_fpga_top $end
+$var reg 1 ! clk_fpga $end
+$var reg 16 " dip_value_in [15:0] $end
+$var reg 1 # btn_add $end
+$var reg 1 $ btn_jump $end
+$var reg 1 % btn_adv $end
+$var reg 1 & btn_dest_msb $end
+$var reg 3 ' dip_ctrl [2:0] $end
+$var wire 4 ( pc [3:0] $end
+$var wire 16 ) o_b [15:0] $end
+$var wire 16 * o_r0 [15:0] $end
+$var wire 16 + o_r1 [15:0] $end
+$var wire 16 , o_r2 [15:0] $end
+$var wire 16 - o_r3 [15:0] $end
+$var wire 32 . w2_dbg [31:0] $end
+$var wire 1 / asm_store_clk_dbg $end
+$var reg 1 0 saw_store $end
+$scope module uut $end
+$var wire 1 1 clk_fpga $end
+$var wire 16 2 dip_value_in [15:0] $end
+$var wire 1 3 btn_add $end
+$var wire 1 4 btn_jump $end
+$var wire 1 5 btn_adv $end
+$var wire 1 6 btn_dest_msb $end
+$var wire 3 7 dip_ctrl [2:0] $end
+$var wire 4 ( pc [3:0] $end
+$var wire 16 ) o_b [15:0] $end
+$var wire 16 * o_r0 [15:0] $end
+$var wire 16 + o_r1 [15:0] $end
+$var wire 16 , o_r2 [15:0] $end
+$var wire 16 - o_r3 [15:0] $end
+$var wire 32 . w2_dbg [31:0] $end
+$var wire 1 / asm_store_clk_dbg $end
+$var wire 1 8 add $end
+$var wire 1 9 jump $end
+$var wire 1 : dest_msb $end
+$var wire 1 ; advance_pulse $end
+$var wire 16 < value [15:0] $end
+$var wire 2 = dest [1:0] $end
+$var wire 2 > src [1:0] $end
+$var wire 1 ? prog $end
+$var wire 1 @ advance $end
+$scope module u_core $end
+$var wire 16 < value [15:0] $end
+$var wire 2 = dest [1:0] $end
+$var wire 2 > src [1:0] $end
+$var wire 1 8 add $end
+$var wire 1 9 jump $end
+$var wire 1 ? prog $end
+$var wire 1 @ advance $end
+$var wire 4 ( pc [3:0] $end
+$var wire 16 ) o_b [15:0] $end
+$var wire 16 * o_r0 [15:0] $end
+$var wire 16 + o_r1 [15:0] $end
+$var wire 16 , o_r2 [15:0] $end
+$var wire 16 - o_r3 [15:0] $end
+$var wire 32 . w2_dbg [31:0] $end
+$var wire 1 / asm_store_clk_dbg $end
+$var wire 32 A asm_inst [31:0] $end
+$var wire 1 B asm_store_clk $end
+$var wire 32 C mem_data [31:0] $end
+$var wire 4 D pc_internal [3:0] $end
+$var wire 16 E dec_imm [15:0] $end
+$var wire 2 F dec_rs [1:0] $end
+$var wire 2 G dec_rd [1:0] $end
+$var wire 1 H dec_jump $end
+$var wire 1 I dec_add $end
+$var wire 16 J exe_result [15:0] $end
+$var wire 16 K exe_b [15:0] $end
+$var wire 1 L clk_regfile $end
+$scope module u_assembler $end
+$var wire 1 ? prog $end
+$var wire 16 < value [15:0] $end
+$var wire 2 = dest [1:0] $end
+$var wire 2 > src [1:0] $end
+$var wire 1 8 asm_add $end
+$var wire 1 9 asm_jump $end
+$var wire 32 A inst [31:0] $end
+$var wire 1 B store_clk $end
+$var wire 3 M opcode [2:0] $end
+$var wire 1 N any $end
+$scope module priorityencoder3_i0 $end
+$var wire 1 8 in0 $end
+$var wire 1 O in1 $end
+$var wire 1 P in2 $end
+$var wire 1 Q in3 $end
+$var wire 1 R in4 $end
+$var wire 1 S in5 $end
+$var wire 1 T in6 $end
+$var wire 1 9 in7 $end
+$var reg 3 U num [2:0] $end
+$var wire 1 N any $end
+$upscope $end
+$upscope $end
+$scope module u_eeprom $end
+$var wire 1 B c $end
+$var wire 1 V str $end
+$var wire 1 W ld $end
+$var wire 32 A d_in [31:0] $end
+$var wire 4 D a [3:0] $end
+$var wire 32 C d [31:0] $end
+$upscope $end
+$scope module u_pc $end
+$var wire 1 @ c $end
+$var wire 1 X en $end
+$var wire 1 Y clr $end
+$var wire 1 Z dir $end
+$var wire 4 [ in [3:0] $end
+$var wire 1 H ld $end
+$var wire 4 D out [3:0] $end
+$var wire 1 \ ovf $end
+$var reg 4 ] count [3:0] $end
+$var parameter 32 ^ bits [31:0] $end
+$var parameter 32 _ maxvalue [31:0] $end
+$scope function maxval $end
+$var reg 4 ` maxval [3:0] $end
+$var reg 4 a maxv [3:0] $end
+$upscope $end
+$upscope $end
+$scope module u_decoder $end
+$var wire 1 ? d_prog $end
+$var wire 32 A bypass [31:0] $end
+$var wire 32 C d_inst [31:0] $end
+$var wire 16 E d_a [15:0] $end
+$var wire 2 F d_rs [1:0] $end
+$var wire 2 G d_rd [1:0] $end
+$var wire 1 H d_jump $end
+$var wire 1 I d_add $end
+$var wire 3 b iw2_dbg [2:0] $end
+$var wire 32 c iw1 [31:0] $end
+$var wire 3 d iw2 [2:0] $end
+$scope module mux_2x1_nbits_i0 $end
+$var wire 1 ? sel [0:0] $end
+$var wire 32 C xin_0 [31:0] $end
+$var wire 32 A xin_1 [31:0] $end
+$var reg 32 e xout [31:0] $end
+$var parameter 32 f bits [31:0] $end
+$upscope $end
+$scope module decoder3_i1 $end
+$var wire 1 I dout_0 $end
+$var wire 1 g dout_1 $end
+$var wire 1 h dout_2 $end
+$var wire 1 i dout_3 $end
+$var wire 1 j dout_4 $end
+$var wire 1 k dout_5 $end
+$var wire 1 l dout_6 $end
+$var wire 1 H dout_7 $end
+$var wire 3 d sel [2:0] $end
+$upscope $end
+$upscope $end
+$scope module u_execute $end
+$var wire 16 E exe_a [15:0] $end
+$var wire 16 K exe_b [15:0] $end
+$var wire 1 I exe_add $end
+$var wire 16 J exe_result [15:0] $end
+$var wire 16 m sum [15:0] $end
+$scope module adder_nbits_i0 $end
+$var wire 16 E a [15:0] $end
+$var wire 16 K b [15:0] $end
+$var wire 1 n c_i $end
+$var wire 16 m s [15:0] $end
+$var wire 1 o c_o $end
+$var wire 17 p temp [16:0] $end
+$var parameter 32 q bits [31:0] $end
+$upscope $end
+$scope module mux_2x1_nbits_i0 $end
+$var wire 1 I sel [0:0] $end
+$var wire 16 K xin_0 [15:0] $end
+$var wire 16 m xin_1 [15:0] $end
+$var reg 16 r xout [15:0] $end
+$var parameter 32 s bits [31:0] $end
+$upscope $end
+$upscope $end
+$scope module u_regfile $end
+$var wire 2 F rs [1:0] $end
+$var wire 2 G rd [1:0] $end
+$var wire 16 J result [15:0] $end
+$var wire 1 L clk $end
+$var wire 16 ) o_b [15:0] $end
+$var wire 16 * o_r0 [15:0] $end
+$var wire 16 + o_r1 [15:0] $end
+$var wire 16 , o_r2 [15:0] $end
+$var wire 16 - o_r3 [15:0] $end
+$var wire 16 t dx0 [15:0] $end
+$var wire 16 u dx1 [15:0] $end
+$var wire 16 v dx2 [15:0] $end
+$var wire 16 w dx3 [15:0] $end
+$var wire 1 x d0 $end
+$var wire 1 y d1 $end
+$var wire 1 z d2 $end
+$var wire 1 { d3 $end
+$var wire 16 | r0_temp [15:0] $end
+$var wire 16 } r1_temp [15:0] $end
+$var wire 16 ~ r2_temp [15:0] $end
+$var wire 16 !! r3_temp [15:0] $end
+$scope module demux_bus0 $end
+$var wire 16 t out_0 [15:0] $end
+$var wire 16 u out_1 [15:0] $end
+$var wire 16 v out_2 [15:0] $end
+$var wire 16 w out_3 [15:0] $end
+$var wire 2 G sel [1:0] $end
+$var wire 16 J in [15:0] $end
+$var parameter 32 "! bits [31:0] $end
+$var parameter 32 #! otherwise [31:0] $end
+$upscope $end
+$scope module enabler_regs $end
+$var wire 1 x out_0 $end
+$var wire 1 y out_1 $end
+$var wire 1 z out_2 $end
+$var wire 1 { out_3 $end
+$var wire 2 G sel [1:0] $end
+$upscope $end
+$scope module dff_reg_bus0 $end
+$var wire 1 L c $end
+$var wire 1 x en $end
+$var wire 16 t d [15:0] $end
+$var wire 16 | q [15:0] $end
+$var reg 16 $! state [15:0] $end
+$var parameter 32 %! bits [31:0] $end
+$upscope $end
+$scope module dff_reg_bus1 $end
+$var wire 1 L c $end
+$var wire 1 y en $end
+$var wire 16 u d [15:0] $end
+$var wire 16 } q [15:0] $end
+$var reg 16 &! state [15:0] $end
+$var parameter 32 '! bits [31:0] $end
+$upscope $end
+$scope module dff_reg_bus2 $end
+$var wire 1 L c $end
+$var wire 1 z en $end
+$var wire 16 v d [15:0] $end
+$var wire 16 ~ q [15:0] $end
+$var reg 16 (! state [15:0] $end
+$var parameter 32 )! bits [31:0] $end
+$upscope $end
+$scope module dff_reg_bus3 $end
+$var wire 1 L c $end
+$var wire 1 { en $end
+$var wire 16 w d [15:0] $end
+$var wire 16 !! q [15:0] $end
+$var reg 16 *! state [15:0] $end
+$var parameter 32 +! bits [31:0] $end
+$upscope $end
+$scope module mux_4x1_nbits_i6 $end
+$var wire 16 | x0 [15:0] $end
+$var wire 16 } x1 [15:0] $end
+$var wire 16 ~ x2 [15:0] $end
+$var wire 16 !! x3 [15:0] $end
+$var wire 1 ,! s0 $end
+$var wire 1 -! s1 $end
+$var wire 16 ) out [15:0] $end
+$var wire 16 .! z1 [15:0] $end
+$var wire 16 /! z2 [15:0] $end
+$var parameter 32 0! bits [31:0] $end
+$scope module instance01 $end
+$var wire 1 ,! sel [0:0] $end
+$var wire 16 | xin_0 [15:0] $end
+$var wire 16 } xin_1 [15:0] $end
+$var reg 16 1! xout [15:0] $end
+$var parameter 32 2! bits [31:0] $end
+$upscope $end
+$scope module instance02 $end
+$var wire 1 ,! sel [0:0] $end
+$var wire 16 ~ xin_0 [15:0] $end
+$var wire 16 !! xin_1 [15:0] $end
+$var reg 16 3! xout [15:0] $end
+$var parameter 32 4! bits [31:0] $end
+$upscope $end
+$scope module instance03 $end
+$var wire 1 -! sel [0:0] $end
+$var wire 16 .! xin_0 [15:0] $end
+$var wire 16 /! xin_1 [15:0] $end
+$var reg 16 5! xout [15:0] $end
+$var parameter 32 6! bits [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module u_ila $end
+$var wire 1 1 clk $end
+$var wire 16 7! o_b [15:0] $end
+$var wire 16 8! o_r0 [15:0] $end
+$var wire 16 9! o_r1 [15:0] $end
+$var wire 16 :! o_r2 [15:0] $end
+$var wire 16 ;! o_r3 [15:0] $end
+$var reg 4 <! pc [3:0] $end
+$var reg 4 =! probe_pc [3:0] $end
+$var reg 16 >! probe_b [15:0] $end
+$var reg 16 ?! probe_r0 [15:0] $end
+$var reg 16 @! probe_r1 [15:0] $end
+$var reg 16 A! probe_r2 [15:0] $end
+$var reg 16 B! probe_r3 [15:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+b0 !!
+b10100101 "
+b10000 "!
+0#
+b0 #!
+0$
+b0 $!
+0%
+b10000 %!
+0&
+b0 &!
+b0 '
+b10000 '!
+bx (
+b0 (!
+bx )
+b10000 )!
+bx *
+b0 *!
+bx +
+b10000 +!
+bx ,
+x,!
+bx -
+x-!
+b10100101 .
+b0 .!
+0/
+b0 /!
+00
+b10000 0!
+01
+b0 1!
+b10100101 2
+b10000 2!
+03
+b0 3!
+04
+b10000 4!
+05
+b0 5!
+06
+b10000 6!
+b0 7
+bz 7!
+08
+bz 8!
+09
+bz 9!
+0:
+bz :!
+0;
+bz ;!
+b10100101 <
+bx <!
+b0 =
+bx =!
+b0 >
+bx >!
+0?
+bx ?!
+0@
+bx @!
+b10100101 A
+bx A!
+0B
+bx B!
+bx C
+b0 D
+bx E
+bx F
+bx G
+xH
+xI
+bx J
+bx K
+0L
+b0 M
+0N
+0O
+0P
+0Q
+0R
+0S
+0T
+b0 U
+1V
+1W
+1X
+0Y
+0Z
+bx [
+0\
+b0 ]
+b100 ^
+b1111 _
+b1000 `
+b0 a
+bx b
+bx c
+bx d
+bx e
+b100000 f
+xg
+xh
+xi
+xj
+xk
+xl
+bx m
+0n
+xo
+bx p
+b10000 q
+bx r
+b10000 s
+bx t
+bx u
+bx v
+bx w
+xx
+xy
+xz
+x{
+b0 |
+b0 }
+b0 ~
+$end
+#5000
+1!
+b0 )
+b0 *
+b0 +
+b0 ,
+b0 -
+11
+bz >!
+bz ?!
+bz @!
+bz A!
+bz B!
+b0 J
+b0 K
+bx p
+b0 r
+b0 t
+b0 u
+b0 v
+b0 w
+#10000
+0!
+01
+#15000
+1!
+11
+#20000
+0!
+1#
+b101 '
+0,!
+0-!
+b10000000010100101 .
+1/
+01
+b0 1!
+13
+b0 3!
+b0 5!
+b101 7
+18
+b1 =
+1?
+b10000000010100101 A
+1B
+b10000000010100101 C
+b10100101 E
+b0 F
+b1 G
+0H
+1I
+b10100101 J
+1N
+b0 U
+b101 [
+b0 b
+b10000000010100101 c
+b0 d
+b10000000010100101 e
+0g
+0h
+0i
+0j
+0k
+0l
+b10100101 m
+0o
+b10100101 p
+b10100101 r
+b10100101 u
+0x
+1y
+0z
+0{
+#25000
+1!
+10
+11
+#30000
+0!
+0#
+0/
+01
+03
+08
+0B
+0N
+b0 U
+#35000
+1!
+11
+#40000
+0!
+01
+#45000
+1!
+11
+#50000
+0!
+01
+#55000
+1!
+11
+#60000
+0!
+01
+#65000
+1!
+11
+#70000
+0!
+01
+#75000
+1!
+11
+#80000
+0!
+1$
+b111000000010000000010100101 .
+1/
+01
+14
+19
+b111000000010000000010100101 A
+1B
+1H
+0I
+b0 J
+b111 M
+1N
+b111 U
+b111 b
+b111000000010000000010100101 c
+b111 d
+b111000000010000000010100101 e
+b0 r
+b0 u
+#85000
+1!
+11
+#90000
+0!
+0$
+b10000000010100101 .
+0/
+01
+04
+09
+b10000000010100101 A
+0B
+0H
+1I
+b10100101 J
+b0 M
+0N
+b0 U
+b0 b
+b10000000010100101 c
+b0 d
+b10000000010100101 e
+b10100101 r
+b10100101 u
+#95000
+1!
+11
+#100000
+0!
+01
+#105000
+1!
+11
+#110000
+0!
+01
+#115000
+1!
+11
+#120000
+0!
+01
+#125000
+1!
+11
+#130000
+0!
+01
+#135000
+1!
+11
+#140000
+0!
+1%
+b10100101 &!
+bx (
+b10100101 +
+01
+b0 1!
+15
+1;
+1@
+bx C
+b1 D
+1L
+b1 ]
+b10000000010100101 e
+b10100101 }
+#145000
+1!
+11
+#150000
+0!
+0%
+01
+05
+0;
+0@
+0L
+#155000
+1!
+11
+#160000
+0!
+01
+#165000
+1!
+11
+#170000
+0!
+01
+#175000
+1!
+11
+#180000
+0!
+1%
+b10100101 &!
+bx (
+01
+15
+1;
+1@
+bx C
+b10 D
+1L
+b10 ]
+#185000
+1!
+11
+#190000
+0!
+0%
+01
+05
+0;
+0@
+0L
+#195000
+1!
+11
+#200000
+0!
+01
+#205000
+1!
+11
+#210000
+0!
+01
+#215000
+1!
+11
+#220000
+0!
+1%
+b10100101 &!
+bx (
+01
+15
+1;
+1@
+bx C
+b11 D
+1L
+b11 ]
+#225000
+1!
+11
+#230000
+0!
+0%
+01
+05
+0;
+0@
+0L
+#235000
+1!
+11
+#240000
+0!
+01
+#245000
+1!
+11
+#250000
+0!
+01
+#255000
+1!
+11
+#260000
+0!
+01
+#265000
+1!
+11
+#270000
+0!
+01
+#275000
+1!
+11
+#280000
+0!
+01
+#285000
+1!
+11
+#290000
+0!
+01
+#295000
+1!
+11
+#300000
+0!
+01
+#305000
+1!
+11
+#310000
+0!
+01
+#315000
+1!
+11
+#320000
+0!
+01
+#325000
+1!
+11
+#330000
+0!
+01
+#335000
+1!
+11
+#340000
+0!
+01
+#345000
+1!
+11
+#350000
+0!
+01
+#355000
+1!
+11

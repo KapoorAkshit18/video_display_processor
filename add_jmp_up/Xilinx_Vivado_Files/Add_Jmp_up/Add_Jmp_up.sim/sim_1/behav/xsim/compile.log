@@ -1,0 +1,37 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/add_jump_cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_jump_cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/adder_nbits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_nbits
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/assembler.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module assembler
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/counter_with_preset.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_with_preset
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/debounce_onepulse.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debounce_onepulse
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/decoder-1x8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/decoder_1x4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_1x4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/demux_nbits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module demux_nbits
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/dff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/eeprom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eeprom
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/execute.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module execute
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/fpga_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fpga_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/mux_2x1_nbits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_2x1_nbits
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/mux_4x1_nbits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_nbits
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/priorityencoder3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module priorityencoder3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/new/probe_registers.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module probe_registers
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/akshi/Add_Jmp_up/Add_Jmp_up.srcs/sources_1/imports/hello/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+ERROR: [VRFC 10-453] cannot open verilog file ../../../../Add_Jmp_up.srcs/sim_1/imports/all files for vivado/tb_fpga_top.v
